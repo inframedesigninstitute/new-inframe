@@ -3,16 +3,7 @@
 import Image from "next/image";
 
 export default function About() {
-    const galleryImages = [
-        { src: "gallery1.JPG", alt: "Image 1", colSpan: 2, rowSpan: 2 },
-        { src: "gallery2.JPG", alt: "Image 2", colSpan: 1, rowSpan: 1 },
-        { src: "gallery3.JPG", alt: "Image 3", colSpan: 1, rowSpan: 2 },
-        { src: "gallery4.JPG", alt: "Image 4", colSpan: 2, rowSpan: 1 },
-        { src: "gallery5.JPG", alt: "Image 5", colSpan: 1, rowSpan: 1 },
-        { src: "gallery6.JPG", alt: "Image 6", colSpan: 1, rowSpan: 1 },
-        { src: "gallery7.JPG", alt: "Image 7", colSpan: 2, rowSpan: 2 },
-        { src: "gallery8.JPG", alt: "Image 8", colSpan: 1, rowSpan: 1 },
-    ];
+
 
     return (
         <div className='w-full bg-white'>
