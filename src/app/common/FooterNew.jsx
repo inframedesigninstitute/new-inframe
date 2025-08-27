@@ -1,27 +1,34 @@
 'use client'
 import { FaFacebookSquare, FaGraduationCap, FaLinkedin, FaTwitterSquare, FaYoutube } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
+import { RiFilePaper2Fill, RiInstagramFill } from "react-icons/ri";
 import { megaMenuData } from "../ApiData/categoryApi";
 import Link from "next/link";
+import { FaDownload } from "react-icons/fa";
+
 
 export default function FooterNew() {
     return (
         <>
             <div className="w-full lg:mt-[60px] mt-[30px]  bg-gradient-to-r from-red-700 via-red-800 to-black text-white lg:px-6 px-3">
-                <div className="max-w-[1320px] mx-auto py-[30px] grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10">
-                    {megaMenuData.map((item, index) => (
-                        <ul key={index}>
-                            <li className="uppercase text-[20px] tracking-widest mb-4 font-extrabold border-b-[1] border-white">{item.parentCategory}</li>
-                            {item.subCategory.map((subCat) =>
-                                subCat.subSubCategory.map((subSubCat) =>
-                                    subSubCat.courses.map((course, courseIndex) => (
-                                        <Link href={`/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`}> <li key={courseIndex} className="my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ">{course}
-                                        </li></Link>
-                                    ))
-                                )
-                            )}
-                        </ul>
-                    ))}
+                <div className="max-w-[1320px] mx-auto py-[30px] ">
+                    <h2 className="text-[35px] shadow-md text-white font-semibold uppercase mb-5 pb-1">Courses We Provide</h2>
+                    <div className="grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10">
+                        {megaMenuData.map((item, index) => (
+                            <ul key={index}>
+                                <li className="uppercase text-[20px] tracking-widest mb-4 font-extrabold border-b-[1] border-white">{item.parentCategory}</li>
+                                {item.subCategory.map((subCat) =>
+                                    subCat.subSubCategory.map((subSubCat) =>
+                                        subSubCat.courses.map((course, courseIndex) => (
+                                            <Link href={`/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`}> <li key={courseIndex} className="my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ">{course}
+                                            </li></Link>
+                                        ))
+                                    )
+                                )}
+                            </ul>
+                        ))}
+                    </div>
+
+
                 </div>
             </div>
 
@@ -33,8 +40,9 @@ export default function FooterNew() {
                             <ul>
                                 <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Jodhpur</li>
                                 <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Udaipur</li>
-                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Jaipur</li>
                                 <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Rajasthan</li>
+                                <Link href={'/download'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaDownload className="text-[22px]" /> Download Materials</li></Link>
+                                <Link href={'/our-blogs'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><RiFilePaper2Fill className="text-[22px]" /> Blog</li></Link>
                             </ul>
                         </div>
                         <div className="text-white md:border-r-[1] pr-5 border-white">

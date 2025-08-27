@@ -166,7 +166,7 @@ function About() {
                                                 width: 800,
                                                 height: 800,
                                                 className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] mb-[35px] rounded-[5px]",
-                                                src: "/gallery1.jpg"
+                                                src: "/gallery1.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 51,
@@ -176,7 +176,7 @@ function About() {
                                                 width: 800,
                                                 height: 800,
                                                 className: "hover:scale-[1.05] duration-300 mb-[35px] rounded-[5px] w-[100%] h-[100%]",
-                                                src: "/gallery2.jpg"
+                                                src: "/gallery2.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 52,
@@ -195,7 +195,7 @@ function About() {
                                                 width: 800,
                                                 height: 800,
                                                 className: "hover:scale-[1.05] duration-300 rounded-[5px]",
-                                                src: "/gallery3.jpg"
+                                                src: "/gallery3.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 55,
@@ -205,7 +205,7 @@ function About() {
                                                 width: 800,
                                                 height: 800,
                                                 className: "hover:scale-[1.05] duration-300 rounded-[5px] w-[100%] h-[100%]",
-                                                src: "/gallery4.jpg"
+                                                src: "/gallery4.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 56,
@@ -252,7 +252,7 @@ function About() {
                                 width: 800,
                                 height: 800,
                                 className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px] ",
-                                src: "/gallery6.jpg"
+                                src: "/gallery6.JPG"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
                                 lineNumber: 64,
@@ -272,7 +272,7 @@ function About() {
                                 width: 800,
                                 height: 800,
                                 className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
-                                src: "/gallery5.jpg"
+                                src: "/gallery5.JPG"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
                                 lineNumber: 66,

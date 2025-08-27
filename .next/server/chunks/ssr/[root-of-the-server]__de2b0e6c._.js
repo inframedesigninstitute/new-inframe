@@ -139,7 +139,7 @@ function LoginForm({ activePage, setActivePage }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "w-full bg-red-600 hover:bg-gray-700 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] ",
+                        className: "w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] ",
                         children: "Login"
                     }, void 0, false, {
                         fileName: "[project]/src/app/common/UserControl.jsx",
@@ -248,7 +248,7 @@ function Register({ activePage, setActivePage }) {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "w-full bg-red-600 hover:bg-gray-700 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                            className: "w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
                             children: "Request OTP"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
@@ -1028,7 +1028,7 @@ function Header() {
                                         setActivePage("login");
                                         setMegaMenuOpen(false);
                                     },
-                                    className: "bg-red-600  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-gray-700 py-[10px] text-white  text-[16px]",
+                                    className: "bg-red-800  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-red-900 py-[10px] text-white  text-[16px]",
                                     children: "Login / Register"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/common/Header.jsx",
@@ -1094,7 +1094,7 @@ function Header() {
                                     setActivePage("login");
                                     setMegaMenuOpen(false);
                                 },
-                                className: "bg-red-600 hover:bg-red-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[16px]",
+                                className: "bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[16px]",
                                 children: "Login"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/Header.jsx",
@@ -1205,7 +1205,7 @@ function Header() {
                                             setMobileMenu(false);
                                             setMegaMenuOpen(false);
                                         },
-                                        className: "w-full bg-red-600 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]",
+                                        className: "w-full bg-red-800 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]",
                                         children: "Login / Register"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/Header.jsx",
@@ -1255,55 +1255,73 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 ;
+;
 function FooterNew() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "w-full lg:mt-[60px] mt-[30px]  bg-gradient-to-r from-red-700 via-red-800 to-black text-white lg:px-6 px-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1320px] mx-auto py-[30px] grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10",
-                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ApiData$2f$categoryApi$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["megaMenuData"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                    className: "uppercase text-[20px] tracking-widest mb-4 font-extrabold border-b-[1] border-white",
-                                    children: item.parentCategory
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/common/FooterNew.jsx",
-                                    lineNumber: 14,
-                                    columnNumber: 29
-                                }, this),
-                                item.subCategory.map((subCat)=>subCat.subSubCategory.map((subSubCat)=>subSubCat.courses.map((course, courseIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                href: `/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`,
-                                                children: [
-                                                    " ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                        className: "my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ",
-                                                        children: course
-                                                    }, courseIndex, false, {
-                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 18,
-                                                        columnNumber: 105
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 18,
-                                                columnNumber: 41
-                                            }, this))))
-                            ]
-                        }, index, true, {
+                    className: "max-w-[1320px] mx-auto py-[30px] ",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-[35px] shadow-md text-white font-semibold uppercase mb-5 pb-1",
+                            children: "Courses We Provide"
+                        }, void 0, false, {
                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                            lineNumber: 13,
-                            columnNumber: 25
-                        }, this))
-                }, void 0, false, {
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10",
+                            children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ApiData$2f$categoryApi$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["megaMenuData"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            className: "uppercase text-[20px] tracking-widest mb-4 font-extrabold border-b-[1] border-white",
+                                            children: item.parentCategory
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/common/FooterNew.jsx",
+                                            lineNumber: 18,
+                                            columnNumber: 33
+                                        }, this),
+                                        item.subCategory.map((subCat)=>subCat.subSubCategory.map((subSubCat)=>subSubCat.courses.map((course, courseIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: `/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`,
+                                                        children: [
+                                                            " ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                                className: "my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ",
+                                                                children: course
+                                                            }, courseIndex, false, {
+                                                                fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                                lineNumber: 22,
+                                                                columnNumber: 109
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                        lineNumber: 22,
+                                                        columnNumber: 45
+                                                    }, this))))
+                                    ]
+                                }, index, true, {
+                                    fileName: "[project]/src/app/common/FooterNew.jsx",
+                                    lineNumber: 17,
+                                    columnNumber: 29
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/common/FooterNew.jsx",
+                            lineNumber: 15,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 10,
+                lineNumber: 12,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1321,7 +1339,7 @@ function FooterNew() {
                                         children: "Student Zone"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 32,
+                                        lineNumber: 39,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1333,14 +1351,14 @@ function FooterNew() {
                                                         className: "text-[25px]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 41,
                                                         columnNumber: 143
                                                     }, this),
                                                     " Top Colleges In Jodhpur"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 34,
+                                                lineNumber: 41,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1350,14 +1368,14 @@ function FooterNew() {
                                                         className: "text-[25px]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 35,
+                                                        lineNumber: 42,
                                                         columnNumber: 143
                                                     }, this),
                                                     " Top Colleges In Udaipur"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 35,
+                                                lineNumber: 42,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1367,43 +1385,74 @@ function FooterNew() {
                                                         className: "text-[25px]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 36,
-                                                        columnNumber: 143
-                                                    }, this),
-                                                    " Top Colleges In Jaipur"
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 36,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                className: "mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaGraduationCap"], {
-                                                        className: "text-[25px]"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 37,
+                                                        lineNumber: 43,
                                                         columnNumber: 143
                                                     }, this),
                                                     " Top Colleges In Rajasthan"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 37,
+                                                lineNumber: 43,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                href: '/download',
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaDownload"], {
+                                                            className: "text-[22px]"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                            lineNumber: 44,
+                                                            columnNumber: 168
+                                                        }, this),
+                                                        " Download Materials"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                    lineNumber: 44,
+                                                    columnNumber: 58
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                lineNumber: 44,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                href: '/our-blogs',
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    className: "mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RiFilePaper2Fill"], {
+                                                            className: "text-[22px]"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                            lineNumber: 45,
+                                                            columnNumber: 169
+                                                        }, this),
+                                                        " Blog"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                    lineNumber: 45,
+                                                    columnNumber: 59
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                lineNumber: 45,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 33,
+                                        lineNumber: 40,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 31,
+                                lineNumber: 38,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1414,7 +1463,7 @@ function FooterNew() {
                                         children: "About Us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 41,
+                                        lineNumber: 49,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1422,13 +1471,13 @@ function FooterNew() {
                                         children: "InFrame Design Institute (IDI), established in 2013, is a premier design education center located in Jodhpur, Rajasthan. Founded by a group of artists, IDI offers comprehensive coaching for various design entrance examinations, including NIFT, NID, and UCEED."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 42,
+                                        lineNumber: 50,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 40,
+                                lineNumber: 48,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1439,7 +1488,7 @@ function FooterNew() {
                                         children: "Connect with us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 52,
+                                        lineNumber: 60,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1451,13 +1500,13 @@ function FooterNew() {
                                                 children: "Inframe@gmail.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 53,
+                                                lineNumber: 61,
                                                 columnNumber: 73
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 53,
+                                        lineNumber: 61,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1469,13 +1518,13 @@ function FooterNew() {
                                                 children: "+91-8079025145"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 54,
+                                                lineNumber: 62,
                                                 columnNumber: 73
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 54,
+                                        lineNumber: 62,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1486,7 +1535,7 @@ function FooterNew() {
                                                 children: "Terms and condition   | "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 56,
+                                                lineNumber: 64,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1494,7 +1543,7 @@ function FooterNew() {
                                                 children: "Privacy Policy   | "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 57,
+                                                lineNumber: 65,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1502,7 +1551,7 @@ function FooterNew() {
                                                 children: "Refund Policy   |"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 58,
+                                                lineNumber: 66,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1512,12 +1561,12 @@ function FooterNew() {
                                                     children: "Contact Us   |"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 67,
                                                     columnNumber: 60
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 59,
+                                                lineNumber: 67,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1527,24 +1576,24 @@ function FooterNew() {
                                                     children: "About Us"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 68,
                                                     columnNumber: 56
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 60,
+                                                lineNumber: 68,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 55,
+                                        lineNumber: 63,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 51,
+                                lineNumber: 59,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1555,7 +1604,7 @@ function FooterNew() {
                                         children: "Social Channels"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 72,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1565,41 +1614,41 @@ function FooterNew() {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 66,
+                                                lineNumber: 74,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaFacebookSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 67,
+                                                lineNumber: 75,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["RiInstagramFill"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 68,
+                                                lineNumber: 76,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaTwitterSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 69,
+                                                lineNumber: 77,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 70,
+                                                lineNumber: 78,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 65,
+                                        lineNumber: 73,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1607,7 +1656,7 @@ function FooterNew() {
                                         children: "Get the app for better Experience"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 80,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1616,29 +1665,29 @@ function FooterNew() {
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 81,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 63,
+                                lineNumber: 71,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 30,
+                        lineNumber: 37,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                    lineNumber: 29,
+                    lineNumber: 36,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 28,
+                lineNumber: 35,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1648,12 +1697,12 @@ function FooterNew() {
                     children: "© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved"
                 }, void 0, false, {
                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                    lineNumber: 79,
+                    lineNumber: 87,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 78,
+                lineNumber: 86,
                 columnNumber: 13
             }, this)
         ]

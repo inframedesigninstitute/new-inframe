@@ -328,14 +328,14 @@ function Facility() {
         },
         {
             id: '2',
-            heading: 'Best Material',
+            heading: 'Best Guidance',
             description: 'Access exclusive study resources curated by experts. Stay ahead with content tailored for NIFT, NID, NATA, and UCEED.',
             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaBookOpen"], {}, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/Facility.jsx",
                 lineNumber: 66,
                 columnNumber: 19
             }, this),
-            src: '/bestMaterial.png'
+            src: '/bestGuidence.jpg'
         },
         {
             id: '3',
@@ -2066,6 +2066,8 @@ function Testimonials() {
     _s();
     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
     const cardRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])();
+    const sliderRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [autoPlay, setAutoPlay] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Testimonials.useEffect": ()=>{
             __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(cardRef.current, {
@@ -2078,115 +2080,171 @@ function Testimonials() {
                 ease: 'power1.in',
                 scrollTrigger: {
                     trigger: cardRef.current,
-                    start: 'top 60%',
+                    start: 'top 70%',
                     toggleActions: 'play none none none'
                 }
             });
         }
     }["Testimonials.useEffect"], []);
-    var settings = {
+    const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 1,
+        speed: 700,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 3000,
         arrows: false,
-        pushOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     };
     let data = [
         {
             name: 'KANIKA',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial0.mp4'
         },
         {
             name: 'ROHAN',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial1.mp4'
         },
         {
             name: 'MANISH',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4'
+        },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4'
+        },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4'
+        },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: cardRef,
-        className: "w-full lg:bg-gray-50",
+        className: "w-full lg:bg-gray-50 py-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                 style: {
                     background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
                 },
-                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10",
+                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5 mb-10",
                 children: "Happy Students Testimonials"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 65,
+                lineNumber: 102,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-[1320px] mx-auto lg:pb-[60px] lg:p-0 p-3",
-                children: data.length >= 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-7xl mx-auto rounded-4xl",
+                className: "max-w-[1320px] mx-auto px-3",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    onClick: ()=>setAutoPlay(!autoPlay),
+                    className: "cursor-pointer",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        ref: sliderRef,
                         ...settings,
                         children: data.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                    autoPlay: true,
-                                    muted: true,
-                                    playsInline: true,
-                                    className: " mx-auto lg:h-[400px] rounded-[30px] ",
-                                    src: item.src
-                                }, void 0, false, {
+                                className: "px-2",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "bg-white p-4 rounded-[20px] shadow-md h-full",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                            className: "w-full h-[300px] object-cover rounded-[15px] mb-4",
+                                            src: item.src,
+                                            muted: true,
+                                            playsInline: true,
+                                            preload: "metadata",
+                                            onClick: (e)=>{
+                                                if (autoPlay) {
+                                                    e.target.play();
+                                                } else {
+                                                    e.target.pause();
+                                                }
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                            lineNumber: 117,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                            className: "text-xl font-semibold mb-1 text-red-700",
+                                            children: item.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                            lineNumber: 132,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-sm text-gray-600",
+                                            children: item.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                            lineNumber: 133,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                    lineNumber: 78,
-                                    columnNumber: 41
+                                    lineNumber: 116,
+                                    columnNumber: 33
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                lineNumber: 74,
-                                columnNumber: 37
+                                lineNumber: 115,
+                                columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                        lineNumber: 71,
-                        columnNumber: 25
+                        lineNumber: 113,
+                        columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 70,
-                    columnNumber: 21
-                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex justify-center items-center h-auto ",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-[70px] h-[70px] border-4 border-gray-300 border-t-gray-700 rounded-full animate-spin"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                        lineNumber: 89,
-                        columnNumber: 25
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 88,
-                    columnNumber: 21
+                    lineNumber: 112,
+                    columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 66,
+                lineNumber: 111,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-        lineNumber: 64,
+        lineNumber: 101,
         columnNumber: 9
     }, this);
 }
-_s(Testimonials, "6u/bLyT0WzEP0A9aknmDXb+lDH8=");
+_s(Testimonials, "Ap03ow4IGKLu9Pg4WdnlIaOUTks=");
 _c = Testimonials;
 var _c;
 __turbopack_context__.k.register(_c, "Testimonials");

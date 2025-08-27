@@ -1,14 +1,16 @@
-'use client'
+'use client';
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import { useEffect, useRef } from "react";
-import Slider from "react-slick"
+import { useEffect, useRef, useState } from "react";
+import Slider from "react-slick";
 
 export default function Testimonials() {
     gsap.registerPlugin(ScrollTrigger);
-
-
     const cardRef = useRef();
+    const sliderRef = useRef(null);
+    const [autoPlay, setAutoPlay] = useState(false);
+
     useEffect(() => {
         gsap.fromTo(
             cardRef.current,
@@ -20,76 +22,120 @@ export default function Testimonials() {
                 ease: 'power1.in',
                 scrollTrigger: {
                     trigger: cardRef.current,
-                    start: 'top 60%',
+                    start: 'top 70%',
                     toggleActions: 'play none none none',
                 },
             }
-        )
-    }, [])
+        );
+    }, []);
 
-    var settings = {
+    const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 1,
+        speed: 700,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 10000,
+        autoplaySpeed: 3000,
         arrows: false,
-        pushOnHover: true,
+        pauseOnHover: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1
+                }
+            },
+            {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     };
 
     let data = [
         {
             name: 'KANIKA',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial0.mp4',
         },
         {
             name: 'ROHAN',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial1.mp4',
         },
         {
             name: 'MANISH',
-            description:
-                'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae debitis, quae repellendus id deleniti pariatur eveniet voluptatum quisquam delectus ipsum non ullam eos ut quas cum, expedita dolores mollitia.',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4',
         },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4',
+        },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4',
+        },
+        {
+            name: 'MANISH',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
+            src: '/testimonial2.mp4',
+        },
+
     ];
 
+
+
     return (
-        <div ref={cardRef} className="w-full lg:bg-gray-50">
-            <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10">Happy Students Testimonials</h3>
-            <div className="max-w-[1320px] mx-auto lg:pb-[60px] lg:p-0 p-3">
+        <div ref={cardRef} className="w-full lg:bg-gray-50 py-10">
+            <h3
+                style={{
+                    background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
+                }}
+                className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5 mb-10"
+            >
+                Happy Students Testimonials
+            </h3>
 
-
-                {data.length >= 1 ?
-                    <div className="max-w-7xl mx-auto rounded-4xl">
-                        <Slider {...settings}>
-                            {
-                                data.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className=""
-                                    >
-                                        <video autoPlay
-                                            muted
-                                            playsInline
-                                            className=" mx-auto lg:h-[400px] rounded-[30px] " src={item.src} ></video>
-                                    </div>
-                                ))
-                            }
-                        </Slider>
-                    </div>
-                    :
-                    <div className="flex justify-center items-center h-auto ">
-                        <div className="w-[70px] h-[70px] border-4 border-gray-300 border-t-gray-700 rounded-full animate-spin"></div>
-                    </div>
-
-                }
+            <div className="max-w-[1320px] mx-auto px-3">
+                <div onClick={() => setAutoPlay(!autoPlay)} className="cursor-pointer">
+                    <Slider ref={sliderRef} {...settings}>
+                        {data.map((item, index) => (
+                            <div key={index} className="px-2">
+                                <div className="bg-white p-4 rounded-[20px] shadow-md h-full">
+                                    <video
+                                        className="w-full h-[300px] object-cover rounded-[15px] mb-4"
+                                        src={item.src}
+                                        muted
+                                        playsInline
+                                        preload="metadata"
+                                        onClick={(e) => {
+                                            if (autoPlay) {
+                                                e.target.play()
+                                            }
+                                            else {
+                                                e.target.pause()
+                                            }
+                                        }}
+                                    />
+                                    <h4 className="text-xl font-semibold mb-1 text-red-700">{item.name}</h4>
+                                    <p className="text-sm text-gray-600">{item.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </Slider>
+                </div>
             </div>
         </div>
     );

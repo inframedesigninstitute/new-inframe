@@ -94,7 +94,7 @@ export default function Header() {
                 setActivePage("login")
                 setMegaMenuOpen(false)
               }}
-              className="bg-red-600  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-gray-700 py-[10px] text-white  text-[16px]"
+              className="bg-red-800  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-red-900 py-[10px] text-white  text-[16px]"
             >
               Login / Register
             </button>
@@ -123,7 +123,7 @@ export default function Header() {
               setActivePage("login")
               setMegaMenuOpen(false)
             }}
-            className="bg-red-600 hover:bg-red-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[16px]"
+            className="bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[16px]"
           >
             Login
           </button>
@@ -170,7 +170,7 @@ export default function Header() {
                 setMobileMenu(false);
                 setMegaMenuOpen(false)
               }}
-              className="w-full bg-red-600 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]"
+              className="w-full bg-red-800 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]"
             >
               Login / Register
             </button>

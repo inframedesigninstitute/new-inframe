@@ -9,7 +9,7 @@ export default function StudyMaterials() {
     return (
         <div className='w-full  lg:my-[60px] my-[30px]'>
             <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10">Study Resources</h3>
-            <div className="max-w-[1320px] lg:p-0 p-3  mx-auto ">
+            <div className="max-w-[1320px] lg:p-0 p-3  mx-auto lg:px-6 px-3">
 
                 <p className='text-center text-[20px] my-[25px]'>A diverse array of learning materials to enhance your educational journey.</p>
                 <div className='grid lg:grid-cols-3 lg:h-[400px] h-auto sm:grid-cols-2 grid-cols-1 gap-10 '>

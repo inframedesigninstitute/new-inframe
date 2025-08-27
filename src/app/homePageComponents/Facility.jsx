@@ -60,11 +60,11 @@ export default function Facility() {
         },
         {
             id: '2',
-            heading: 'Best Material',
+            heading: 'Best Guidance',
             description:
                 'Access exclusive study resources curated by experts. Stay ahead with content tailored for NIFT, NID, NATA, and UCEED.',
             icon: <FaBookOpen />,
-            src: '/bestMaterial.png'
+            src: '/bestGuidence.jpg'
         },
         {
             id: '3',

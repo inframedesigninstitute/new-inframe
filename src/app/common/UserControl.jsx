@@ -75,7 +75,7 @@ export function LoginForm({ activePage, setActivePage }) {
           placeholder="Enter Your Password"
           type="text"
         />
-        <button className="w-full bg-red-600 hover:bg-gray-700 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] ">
+        <button className="w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] ">
           Login
         </button>
         <p className="text-center">
@@ -125,7 +125,7 @@ export function Register({ activePage, setActivePage }) {
             placeholder="Create a Password"
             type="password"
           />
-          <button className="w-full bg-red-600 hover:bg-gray-700 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition">
+          <button className="w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition">
             Request OTP
           </button>
           <p className="text-center">
