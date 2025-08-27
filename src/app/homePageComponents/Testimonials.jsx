@@ -3,6 +3,7 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useEffect, useRef, useState } from "react";
+import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
 
 export default function Testimonials() {
@@ -63,32 +64,32 @@ export default function Testimonials() {
 
     let data = [
         {
-            name: 'KANIKA',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial0.mp4',
         },
         {
-            name: 'ROHAN',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial1.mp4',
         },
         {
-            name: 'MANISH',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4',
         },
         {
-            name: 'MANISH',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4',
         },
         {
-            name: 'MANISH',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4',
         },
         {
-            name: 'MANISH',
+            name: 'STUDENT NAME',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
             src: '/testimonial2.mp4',
         },
@@ -129,6 +130,7 @@ export default function Testimonials() {
                                             }
                                         }}
                                     />
+                                    <p className="flex items-center gap-2 text-[20px] text-amber-400 mb-2"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></p>
                                     <h4 className="text-xl font-semibold mb-1 text-red-700">{item.name}</h4>
                                     <p className="text-sm text-gray-600">{item.description}</p>
                                 </div>

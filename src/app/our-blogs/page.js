@@ -1,8 +1,10 @@
 'use client'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { IoMdSearch } from "react-icons/io";
 
+
 export default function Blogs() {
+
     const [activeTab, setActiveTab] = useState('All')
     const Categories = [
         "All",
@@ -62,7 +64,7 @@ export default function Blogs() {
                                 <button
                                     onClick={() => setActiveTab(item)}
                                     key={index}
-                                    className={`${item == activeTab ? 'bg-red-800 text-white border-red-800' : 'bg-transparent text-red-600 border-red-600'} mb-4 mx-1  border-2   px-4 py-2 rounded-[5px] cursor-pointer hover:bg-red-800 hover:border-transparent hover:text-white duration-300`}
+                                    className={`${item == activeTab ? 'bg-red-800 text-white border-red-800' : 'bg-transparent text-red-600 border-red-600'} mb-4 mx-[3px]  border-2   px-4 py-2 rounded-[5px] cursor-pointer hover:bg-red-800 hover:border-transparent hover:text-white duration-300 `}
                                 >
                                     {item}
                                 </button>
@@ -73,7 +75,7 @@ export default function Blogs() {
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 my-[40px]">
                     {categoryData.map((item, index) => {
                         return (
-                            <div key={index} className="relative w-full max-w-sm h-[400] rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+                            <div key={index} className="relative w-full max-w-sm h-[400px] rounded-lg overflow-hidden shadow-lg group cursor-pointer">
                                 {/* Background Image */}
                                 <div
                                     className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"

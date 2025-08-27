@@ -90,7 +90,7 @@ function Blogs() {
                 children: "Our Blogs"
             }, void 0, false, {
                 fileName: "[project]/src/app/our-blogs/page.js",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -101,7 +101,7 @@ function Blogs() {
                         children: "Discover insights, stories, and the latest updates from Inframe School"
                     }, void 0, false, {
                         fileName: "[project]/src/app/our-blogs/page.js",
-                        lineNumber: 40,
+                        lineNumber: 42,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -113,12 +113,12 @@ function Blogs() {
                                     className: "text-[25px] text-gray-900"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/our-blogs/page.js",
-                                    lineNumber: 44,
+                                    lineNumber: 46,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                lineNumber: 42,
+                                lineNumber: 44,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -127,19 +127,19 @@ function Blogs() {
                                 className: "block w-full pl-10 text-md pr-4 py-3 rounded-md focus:outline-none focus:ring-[3px] focus:ring-red-300 focus:border-transparent"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                lineNumber: 48,
+                                lineNumber: 50,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/our-blogs/page.js",
-                        lineNumber: 41,
+                        lineNumber: 43,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/our-blogs/page.js",
-                lineNumber: 39,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -150,7 +150,7 @@ function Blogs() {
                         children: "Categories "
                     }, void 0, false, {
                         fileName: "[project]/src/app/our-blogs/page.js",
-                        lineNumber: 57,
+                        lineNumber: 59,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -160,29 +160,29 @@ function Blogs() {
                             children: Categories.map((item, index)=>{
                                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: ()=>setActiveTab(item),
-                                    className: `${item == activeTab ? 'bg-red-800 text-white border-red-800' : 'bg-transparent text-red-600 border-red-600'} mb-4 mx-1  border-2   px-4 py-2 rounded-[5px] cursor-pointer hover:bg-red-800 hover:border-transparent hover:text-white duration-300`,
+                                    className: `${item == activeTab ? 'bg-red-800 text-white border-red-800' : 'bg-transparent text-red-600 border-red-600'} mb-4 mx-[3px]  border-2   px-4 py-2 rounded-[5px] cursor-pointer hover:bg-red-800 hover:border-transparent hover:text-white duration-300 `,
                                     children: item
                                 }, index, false, {
                                     fileName: "[project]/src/app/our-blogs/page.js",
-                                    lineNumber: 62,
+                                    lineNumber: 64,
                                     columnNumber: 33
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/our-blogs/page.js",
-                            lineNumber: 59,
+                            lineNumber: 61,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/our-blogs/page.js",
-                        lineNumber: 58,
+                        lineNumber: 60,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-8 my-[40px]",
                         children: categoryData.map((item, index)=>{
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative w-full max-w-sm h-[400] rounded-lg overflow-hidden shadow-lg group cursor-pointer",
+                                className: "relative w-full max-w-sm h-[400px] rounded-lg overflow-hidden shadow-lg group cursor-pointer",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105",
@@ -191,14 +191,14 @@ function Blogs() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/our-blogs/page.js",
-                                        lineNumber: 78,
+                                        lineNumber: 80,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 bg-gradient-to-t from-black via-black to-transparent opacity-80"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/our-blogs/page.js",
-                                        lineNumber: 84,
+                                        lineNumber: 86,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -209,7 +209,7 @@ function Blogs() {
                                                 children: "Inspiring Education"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                                lineNumber: 88,
+                                                lineNumber: 90,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -217,7 +217,7 @@ function Blogs() {
                                                 children: "Discover how our modern curriculum is reshaping the way students learn in the digital age."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                                lineNumber: 89,
+                                                lineNumber: 91,
                                                 columnNumber: 37
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -225,37 +225,37 @@ function Blogs() {
                                                 children: "Read More"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                                lineNumber: 92,
+                                                lineNumber: 94,
                                                 columnNumber: 37
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/our-blogs/page.js",
-                                        lineNumber: 87,
+                                        lineNumber: 89,
                                         columnNumber: 33
                                     }, this)
                                 ]
                             }, index, true, {
                                 fileName: "[project]/src/app/our-blogs/page.js",
-                                lineNumber: 76,
+                                lineNumber: 78,
                                 columnNumber: 29
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/app/our-blogs/page.js",
-                        lineNumber: 73,
+                        lineNumber: 75,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/our-blogs/page.js",
-                lineNumber: 56,
+                lineNumber: 58,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/our-blogs/page.js",
-        lineNumber: 37,
+        lineNumber: 39,
         columnNumber: 9
     }, this);
 }

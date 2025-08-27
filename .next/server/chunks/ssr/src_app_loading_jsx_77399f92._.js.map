@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/pc/Desktop/inframe-latest/inframe-frontend/src/app/loading.jsx"],"sourcesContent":["\r\nexport default function Loading() {\r\n    return (\r\n        <div className=\"w-full h-screen flex justify-center items-center bg-white\">\r\n            <div className=\"text-center\">\r\n                <p className=\"text-xl text-gray-700\">⏳ Loading blogs...</p>\r\n            </div>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AACe,SAAS;IACpB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;YAAI,WAAU;sBACX,cAAA,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;;;;;AAIrD","debugId":null}}]
+}
