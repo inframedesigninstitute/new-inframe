@@ -1,7 +1,7 @@
 {
-  "/course/[slug]/page": "app/course/[slug]/page.js",
-  "/download/page": "app/download/page.js",
+  "/about-us/page": "app/about-us/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/our-blogs/page": "app/our-blogs/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/top-colleges/[slug]/page": "app/top-colleges/[slug]/page.js"
 }

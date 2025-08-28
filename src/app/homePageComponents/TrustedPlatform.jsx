@@ -52,14 +52,12 @@ export default function TrustedPlatform() {
 
     return (
 
-        <div className="lg:py-[60px] py-[30px]">
+        <div className="lg:py-[40px] py-[30px]">
             <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">A Platform Trusted by Students</h3>
             <div className="w-full px-6 p-3">
 
                 <div className="max-w-[1320px] mx-auto ">
                     <div className="mb-[55px]">
-
-
                         <p className="text-center mt-4 text-[24px] text-amber-900 font-bold">
                             Inframe is not just a platform it is an opportunity for students to
                             upskill and improve yourself.

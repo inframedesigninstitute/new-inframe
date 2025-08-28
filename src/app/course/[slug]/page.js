@@ -72,6 +72,7 @@ export default function CoursePage() {
 
   return (
     <div className="w-full">
+      <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">{slug}</h3>
       <div className="max-w-[1320] mx-auto lg:px-6 px-3 lg:py-[0] sm:py-[20]">
         {/* <ul
                     className={`grid grid-cols-10 items-center bg-gray-300 -skew-x-[10deg]`}
@@ -106,7 +107,7 @@ export default function CoursePage() {
           </div>
           <div className="w-full max-w-4xl mx-auto px-4">
             {/* Heading */}
-            <h3 className="text-3xl capitalize sm:text-[35px] font-bold text-red-700 mb-2">
+            <h3 className="text-3xl capitalize sm:text-[25px] font-bold text-red-700 mb-2">
               {slug}
             </h3>
 
@@ -145,7 +146,7 @@ export default function CoursePage() {
             </ul>
 
             {/* Price */}
-            <span className="text-[35px]  font-extrabold text-red-700 block mb-6">
+            <span className="text-[45px]  font-extrabold text-red-700 block mb-6">
               ₹ 1399/-
             </span>
 

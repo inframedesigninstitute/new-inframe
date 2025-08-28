@@ -50,8 +50,8 @@ export default function BookaSession() {
   }, [])
 
   return (
-    <div className="w-full lg:my-[100px]">
-      <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5 mb-0">Book A Free Session</h3>
+    <div className="w-full lg:my-[40px]">
+      <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center  border-b-[6px] font-bold uppercase text-white py-5 mb-0">Book A Free Session</h3>
       <div style={{ backgroundImage: 'url("/bookSession.jpg")' }} className="w-full bg-fixed  bg-cover bg-center relative ">
 
         <div className="absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"></div>

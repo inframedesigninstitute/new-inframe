@@ -82,7 +82,7 @@ export default function Facility() {
 
 
     return (
-        <div className="w-full bg-gradient-to-b from-[#fff9f9] to-[#fefefe] lg:py-[30px] py-[40px]">
+        <div className="w-full bg-gradient-to-b from-[#fff9f9] to-[#fefefe] ">
             <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">Why Student Choose Us</h3>
             <div className="max-w-[1320px] mx-auto text-center mb-12">
                 <p className="text-gray-600 max-w-xl mx-auto text-lg">

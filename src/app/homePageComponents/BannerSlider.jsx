@@ -29,7 +29,7 @@ export default function BannerSlider() {
   };
 
   return (
-    <div className="w-[100%] pb-10">
+    <div className="w-[100%]">
       <Slider {...settings}>
         {sliderData.map((item, index) => {
           return (
@@ -74,7 +74,7 @@ export default function BannerSlider() {
 
 
       </Slider>
-    
+
 
     </div>
   );

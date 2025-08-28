@@ -38,8 +38,8 @@ export default function Blogs() {
     return (
         <div className="w-full ">
             <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  ">Our Blogs</h3>
-            <div className="flex flex-col bg-gradient-to-tr from-red-400 via-red-200 to-red-400  mb-5 items-center gap-5 py-[40px]">
-                <p className="text-center text-[28px] mb-2 text-gray-700">Discover insights, stories, and the latest updates from Inframe School</p>
+            <div className="flex flex-col p-3 bg-gradient-to-tr from-red-400 via-red-200 to-red-400  mb-5 items-center gap-5 py-[40px]">
+                <p className="text-center lg:text-[30px] text-[20px] mb-2 text-gray-700">Discover insights, stories, and the latest updates from Inframe School</p>
                 <div className="relative bg-white w-full max-w-md rounded-md">
                     <span className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                         {/* Search Icon (SVG) */}

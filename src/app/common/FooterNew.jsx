@@ -7,6 +7,41 @@ import { FaDownload } from "react-icons/fa";
 
 
 export default function FooterNew() {
+    let topColleges = ['top College of Architecture', 'top College of Design', 'top College of Fine Art', 'top College of Fashion Design']
+    // let topColleges = [
+    //     {
+    //         category: 'top College of Architecture ',
+    //         data: {
+    //             name: 'Aish College',
+    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
+    //             description: ''
+    //         }
+    //     },
+    //     {
+    //         category: 'top College of Design ',
+    //         data: {
+    //             name: 'Aish College',
+    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
+    //             description: ''
+    //         }
+    //     },
+    //     {
+    //         category: 'top College of Fine Art ',
+    //         data: {
+    //             name: 'Aish College',
+    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
+    //             description: ''
+    //         }
+    //     },
+    //     {
+    //         category: 'top College of Fashion Design ',
+    //         data: {
+    //             name: 'Webmind Softech',
+    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
+    //             description: ''
+    //         }
+    //     },
+    // ]
     return (
         <>
             <div className="w-full lg:mt-[60px] mt-[30px]  bg-gradient-to-r from-red-700 via-red-800 to-black text-white lg:px-6 px-3">
@@ -19,7 +54,7 @@ export default function FooterNew() {
                                 {item.subCategory.map((subCat) =>
                                     subCat.subSubCategory.map((subSubCat) =>
                                         subSubCat.courses.map((course, courseIndex) => (
-                                            <Link href={`/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`}> <li key={courseIndex} className="my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ">{course}
+                                            <Link key={courseIndex} href={`/course/${course.replace(/[^a-zA-Z0-9]/g, "-")}`}> <li key={courseIndex} className="my-2 text-[16px] cursor-pointer hover:text-gray-200 hover:underline duration-300 ">{course}
                                             </li></Link>
                                         ))
                                     )
@@ -27,8 +62,6 @@ export default function FooterNew() {
                             </ul>
                         ))}
                     </div>
-
-
                 </div>
             </div>
 
@@ -38,15 +71,19 @@ export default function FooterNew() {
                         <div className="text-white md:border-r-[1] pr-5 h-[100%] border-white">
                             <h2 className="text-[24px] mb-4 font-semibold uppercase ">Student Zone</h2>
                             <ul>
-                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Jodhpur</li>
-                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Udaipur</li>
-                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Rajasthan</li>
-                                <Link href={'/download'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaDownload className="text-[22px]" /> Download Materials</li></Link>
-                                <Link href={'/our-blogs'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><RiFilePaper2Fill className="text-[22px]" /> Blog</li></Link>
+                                <Link href={'/download'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaDownload className="text-[22px]" /> Download  </li></Link>
+                                <Link href={'/our-blogs'}><li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><RiFilePaper2Fill className="text-[22px]" />Our  Blogs</li></Link>
+                                {topColleges.map((item, index) => {
+                                    return (
+                                        <Link href={`/top-colleges/${item.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`} ><li className="mb-[12px] hover:text-gray-300 duration-100 text-[16px] cursor-pointer capitalize flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> {item}</li></Link>
+                                    )
+                                })}
+
+
                             </ul>
                         </div>
                         <div className="text-white md:border-r-[1] pr-5 border-white">
-                            <h2 className="text-[24px] mb-2 font-semibold uppercase">About Us</h2>
+                            <Link href={'/about-us'}><h2 className="text-[24px] hover:underline mb-2 font-semibold uppercase">About Us</h2></Link>
                             <p className="text-[18px] text-justify" >InFrame Design Institute (IDI), established in 2013, is a premier
                                 design education center located in Jodhpur, Rajasthan. Founded by a
                                 group of artists,
@@ -57,7 +94,7 @@ export default function FooterNew() {
                         </div>
 
                         <div className="text-white md:border-r-[1] pr-3 h-[100%] border-white">
-                            <h2 className="text-[24px] font-semibold mb-4 uppercase  ">Connect with us</h2>
+                            <Link href={'/contact-us'}><h2 className="text-[24px]  hover:underline font-semibold mb-4 uppercase  ">Connect with us</h2></Link>
                             <p className="my-[5px] text-[18px]">EMAIL : <span className="hover:underline duration-100 cursor-pointer">Inframe@gmail.com</span></p>
                             <p className="my-[5px] text-[18px]">PHONE : <span className="hover:underline duration-100 cursor-pointer">+91-8079025145</span></p>
                             <ul className="flex flex-wrap gap-5 items-center my-[15px] text-[18px]">

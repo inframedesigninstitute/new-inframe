@@ -127,7 +127,7 @@ export default function Header() {
               setActivePage("login")
               setMegaMenuOpen(false)
             }}
-            className="bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[16px]"
+            className="bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[8px] text-white text-[16px]"
           >
             Login
           </button>
@@ -181,7 +181,7 @@ export default function Header() {
           </ul>
         </div>
       </div>
-      <button
+      <div
         onClick={() => setcontactModel(!contactModel)}
         className={`${contactModel ? "" : ""
           } fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] hover:bg-gray-900 bg-red-600 text-white rounded-full lg:p-4 p-3 transition-all ease-initial duration-400`}
@@ -203,7 +203,7 @@ export default function Header() {
             +91 807531251
           </button>
         </div>
-      </button>
+      </div>
     </header>
   );
 }
