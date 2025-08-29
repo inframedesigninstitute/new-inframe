@@ -50,12 +50,12 @@ export default function BookaSession() {
   }, [])
 
   return (
-    <div className="w-full lg:my-[40px]">
-      <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center  border-b-[6px] font-bold uppercase text-white py-5 mb-0">Book A Free Session</h3>
-      <div style={{ backgroundImage: 'url("/bookSession.jpg")' }} className="w-full bg-fixed  bg-cover bg-center relative ">
+    <div className="w-full lg:my-[60px] ">
 
-        <div className="absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"></div>
-        <div className="max-w-[1320px] mx-auto items-center overflow-hidden grid lg:grid-cols-[60%_auto] grid-cols-1">
+
+      <div className="lg:mx-6 mx-3">
+        <div style={{ backgroundImage: 'url("/bookSession.jpg")' }} className="max-w-[1320px] bg-black  items-center overflow-hidden bg-cover rounded-[10px] relative bg-center grid lg:grid-cols-[60%_auto] grid-cols-1 mx-auto">
+          <div className="absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"></div>
           {/* Left Section */}
           <div ref={leftRef} className="p-8 lg:p-12 bg-no-repeat bg-cover flex flex-col  space-y-6  relative z-40">
             <div className="flex items-center gap-3 text-white">
@@ -100,7 +100,7 @@ export default function BookaSession() {
           </div>
 
           {/* Right Section - Form */}
-          <form ref={formRef} className="p-8 lg:p-12 z-40 border-2 border-white rounded-[15px] bg-black/10 text-white space-y-6 flex flex-col justify-center lg:mx-10 lg:my-15 m-5">
+          <form ref={formRef} className="p-8 lg:p-12 z-40 border-2 bg-transparent border-white rounded-[15px] text-white space-y-6 flex flex-col justify-center lg:mx-10 lg:my-15 m-5">
             <h2 className="text-[27px] font-bold text-white">
               Fill in Your Details
             </h2>

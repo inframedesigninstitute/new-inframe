@@ -58,14 +58,14 @@ export default function Header() {
               {megaMenuData.map((items, index) => {
                 const { subCategory } = items
                 return (
-                  <li key={index} className="text-[14px] font-semibold hover:bg-red-50 px-[10px] py-[35px] duration-300 cursor-pointer uppercase text-gray-500 group">
+                  <li key={index} className="text-[16px] font-semibold hover:bg-red-50 px-[10px] py-[35px] duration-300 cursor-pointer capitalize text-gray-500 group">
                     {items.parentCategory}
                     <div className="invisible opacity-0 group-hover:opacity-100 origin-top transition-all brightness-110  duration-300 ease-in-out group-hover:visible absolute top-[100%] left-1/2 -translate-x-1/2 w-[1100px] h-auto bg-white shadow-2xl border-[1px] border-gray-300 grid grid-cols-4 gap-4 p-5 rounded-b-[35px]">
                       {subCategory.map((subCat, ind) => {
                         const { subSubCategory } = subCat
                         return (
                           <ul key={ind}>
-                            <li className="text-[20px] uppercase text-red-600  mb-2">
+                            <li className="text-[20px] capitalize text-red-600  mb-2">
                               {subCat.name}
                             </li>
                             <ul>

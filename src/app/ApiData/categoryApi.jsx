@@ -3,7 +3,7 @@ export const megaMenuData = [
         parentCategory: 'Online Courses',
         subCategory: [
             {
-                name: 'UG EXAMS',
+                name: 'Ug Exam',
                 subSubCategory: [
                     {
                         name: 'Design UG Exams',
@@ -16,7 +16,7 @@ export const megaMenuData = [
                 ]
             },
             {
-                name: 'PG EXAMS',
+                name: 'Pg Exam',
                 subSubCategory: [
                     {
                         name: 'Design PG Exams',

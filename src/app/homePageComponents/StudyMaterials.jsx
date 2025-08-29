@@ -7,15 +7,14 @@ export default function StudyMaterials() {
         { heading: 'Notes', description: 'Use Physics Wallah’s detailed study materials that simplify complex ideas into easily understandable language', src: 'https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3eb5198e-6f36-4df4-ad97-81716b80bab2.webp' },
     ]
     return (
-        <div className='w-full  lg:my-[60px] my-[30px]'>
-            <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10">Study Resources</h3>
+        <div className='w-full  lg:my-[40px] my-[30px]'>
+            <h3 className="px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black ">Study Resources</h3>
             <div className="max-w-[1320px] lg:p-0 p-3  mx-auto lg:px-6 px-3">
-
-                <p className='text-center text-[20px] my-[25px]'>A diverse array of learning materials to enhance your educational journey.</p>
-                <div className='grid lg:grid-cols-3 lg:h-[400px] h-auto sm:grid-cols-2 grid-cols-1 gap-10 '>
+                <p className='text-center text-[20px] mt-[10px]'>A diverse array of learning materials to enhance your educational journey.</p>
+                <div className='grid lg:grid-cols-3 lg:h-[370px] h-auto sm:grid-cols-2 grid-cols-1 gap-12 '>
                     {data.map((item, index) => {
                         return (
-                            <div key={index} className='w-[100%] hover:border-b-10 border-red-600 lg:h-[100%] cursor-pointer group hover:translate-y-[-10px] overflow-hidden transition-all ease-in-out duration-300 rounded-[25px] lg:my-[50px] hover:bg-red-100 bg-gray-200 p-8'>
+                            <div key={index} className='w-[100%] hover:border-b-2  lg:h-[100%] cursor-pointer group hover:translate-y-[-10px] overflow-hidden transition-all ease-in-out duration-200 rounded-[25px] lg:my-[50px] hover:bg-gray-50 border-[1px] border-gray-200 hover:border-b-black bg-white p-8'>
                                 <h3 className='text-[25px]'>{item.heading}</h3>
                                 <p className='my-[15px]'>{item.description}</p>
                                 <img className='[330px] group-hover:scale-[1.1] object-contain duration-300' src={item.src} alt="" />

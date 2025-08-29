@@ -52,18 +52,18 @@ export default function TrustedPlatform() {
 
     return (
 
-        <div className="lg:py-[40px] py-[30px]">
-            <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">A Platform Trusted by Students</h3>
+        <div className="lg:py-[40px] py-[30px] bg-[#f8f8f8]">
+            <h3 className="px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black pt-5 ">A Platform trusted by student</h3>
             <div className="w-full px-6 p-3">
 
                 <div className="max-w-[1320px] mx-auto ">
                     <div className="mb-[55px]">
-                        <p className="text-center mt-4 text-[24px] text-amber-900 font-bold">
+                        <p className="text-center mt-4 text-[24px] text-gray-800 font-bold">
                             Inframe is not just a platform it is an opportunity for students to
                             upskill and improve yourself.
                         </p>
                     </div>
-                    <div className="grid lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 items-center lg:gap-12 gap-5 my-[30px]">
+                    <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-center lg:gap-12 gap-5">
                         {data.map((item, index) => {
                             return (
                                 <div
@@ -74,12 +74,12 @@ export default function TrustedPlatform() {
                                         backgroundSize: "cover",
                                         backgroundPosition: "center",
                                     }}
-                                    className="w-full rounded-[10px] lg:rounded-[25px] flex h-[300px] items-center justify-start p-10 relative overflow-hidden shadow-lg"
+                                    className="w-full rounded-[10px] lg:rounded-[5px] flex h-[300px] items-end justify-start p-10 relative overflow-hidden "
                                 >
-                                    <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-black/5 rounded-[10px] lg:rounded-[25px] z-10"></div>
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-black/5 rounded-[5px] z-10"></div>
 
                                     <div className="z-40 ">
-                                        <h3 className="text-white font-semibold lg:text-[45px] text-[30px] mb-2">
+                                        <h3 className="text-white font-semibold lg:text-[35px] text-[30px] mb-2">
                                             {item.heading}
                                         </h3>
                                         <p className="text-white text-[20px]">

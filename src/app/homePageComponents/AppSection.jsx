@@ -48,22 +48,24 @@ export default function AppSection() {
         );
     }, []);
     return (
-        <div className="w-full bg-gray-100 lg:p-0 p-3 lg:py-[30px] py-[30px] overflow-hidden">
-            <div className="max-w-[1120px] grid lg:grid-cols-[70%_auto] items-center mx-auto lg:p-0 p-5  rounded-[10px] ">
-                <div ref={leftRef}>
-                    <h3 className="lg:text-[30px] text-[25px] lg:text-start text-center font-bold">Download Our App For Better Experience</h3>
-                    <ul>
-                        <li className="my-[15px] text-[20px]">Live & recorded classes available at ease</li>
-                        <li className="my-[15px] text-[20px]">Dashboard for progress tracking</li>
-                        <li className="my-[15px] text-[20px]">Lakhs of practice questions</li>
-                    </ul>
-                    <div className="flex items-center gap-5 my-[25px]">
-                        <img className="lg:w-[200px] w-[120px] cursor-pointer object-cover" src="https://www.pw.live/_next/static/media/google-play-badge.171251c3.webp" alt="" />
-                        <img className="lg:w-[200px] w-[120px] cursor-pointer object-cover" src="https://www.pw.live/_next/static/media/apple-store-badge.acb101ce.webp" alt="" />
+        <div className="w-full lg:p-0 p-3 lg:my-[60px] my-[20px] overflow-hidden">
+            <div className="lg:mx-6 mx-3">
+                <div className="max-w-[1320px] bg-[#f8f8f8] grid lg:grid-cols-[70%_auto] items-center mx-auto rounded-[10px] ">
+                    <div className="lg:p-10 p-5" ref={leftRef}>
+                        <h3 className="lg:text-[30px] text-[25px] lg:text-start text-center font-bold">Download Our App For Better Experience</h3>
+                        <ul>
+                            <li className="my-[15px] text-[20px]">Live & recorded classes available at ease</li>
+                            <li className="my-[15px] text-[20px]">Dashboard for progress tracking</li>
+                            <li className="my-[15px] text-[20px]">Lakhs of practice questions</li>
+                        </ul>
+                        <div className="flex items-center gap-5 my-[25px]">
+                            <img className="lg:w-[140px] w-[120px] cursor-pointer object-contain" src="https://www.pw.live/_next/static/media/google-play-badge.171251c3.webp" alt="" />
+                            <img className="lg:w-[140px] w-[120px] cursor-pointer object-contain" src="https://www.pw.live/_next/static/media/apple-store-badge.acb101ce.webp" alt="" />
+                        </div>
                     </div>
-                </div>
-                <div ref={rightRef} className="lg:w-[350px]   h-[500px]">
-                    <img className="w-full h-full object-cover rounded-[10px]" src="https://www.mindinventory.com/blog/wp-content/uploads/2018/12/benefits-of-mobile-app-for-business.webp" alt="" />
+                    <div ref={rightRef} className="lg:w-[320px]   h-[auto]">
+                        <img className="w-full h-full object-contain rounded-[10px]" src="https://www.pw.live/_next/static/media/download-app-right-image.aaca3c09.webp" alt="" />
+                    </div>
                 </div>
             </div>
         </div>

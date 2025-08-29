@@ -35,7 +35,7 @@ export default function BannerSlider() {
           return (
             <div key={index} className="">
               <div
-                className="w-[100%] h-[80vh] bg-cover relative"
+                className="w-[100%] h-[90vh] bg-cover relative"
 
               >
                 <img className="w-[100%] h-[100%] object-cover object-center " src={item.src} alt="" />

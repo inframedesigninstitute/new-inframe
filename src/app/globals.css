@@ -1,33 +1,26 @@
 @import "tailwindcss";
 
-
+/* Global font */
 * {
   font-family: "Mozilla Headline", sans-serif;
 }
 
-
-/* Scrollbar width */
+/* WebKit Browsers (Chrome, Safari, Edge) */
+/* Scrollbar width (vertical) and height (horizontal) */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  /* horizontal scrollbar height */
+  width: 4px;
+  /* Vertical scrollbar width */
+  height: 4px;
+  /* Horizontal scrollbar height */
 }
 
-/* Scrollbar Track (background) */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Scrollbar Thumb (the draggable part) */
-::-webkit-scrollbar-thumbh {
-  background-color: #eb0000;
-  /* Tailwind's red-700 */
-  border-radius: 4px;
-  border: 2px solid white;
-  /* adds padding around thumb */
-}
-
-/* Firefox scrollbar */
-* {
-  scrollbar-color: #b91c1c white;
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  /* Tailwind red-700 */
+  border-radius: 2px;
+  border: none;
 }

@@ -191,7 +191,7 @@ export default function CoursePage() {
                     })}
                 </div> */}
 
-        <div className="w-full lg:p-3 lg:my-[60px] my-[30px] bg-gray-200  text-white rounded-[10px]">
+        <div className="w-full lg:p-3 lg:my-[60px] my-[30px] bg-[#f8f8f8]  text-white rounded-[10px]">
           <div className="max-w-7xl mx-auto py-[30px] p-5 rounded-[10px]  text-white">
             <div className="">
               <h4 className="font-semibold mb-5 tracking-tight text-3xl text-black">

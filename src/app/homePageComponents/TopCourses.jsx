@@ -11,7 +11,7 @@ export default function TopCourses() {
   return (
     <div className="w-full ">
       <div className="max-w-[1320px] mx-auto">
-        <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">Top Selling courses</h3>
+        <h3 className="px-6 lg:text-[35px] text-[25px] text-center font-bold  text-black py-5 ">Top Selling Course</h3>
         <OnlineCourses />
         <OfflineCourses />
         <StudyMaterial />
@@ -60,7 +60,7 @@ export function OnlineCourses() {
   ];
   return (
     <div className="my-[0px] lg:px-6">
-      <h3 className="text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-10 my-5 p-3">
+      <h3 className="text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-0 py-3">
         Online <span className="text-red-600"> Best Selling </span> Courses
       </h3>
       <div className="sm:hidden">
@@ -95,7 +95,7 @@ export function OnlineCourses() {
       </div>
 
       {/* Large screens: Grid */}
-      <div className="hidden sm:grid grid-cols-3 gap-12 my-[40px] ">
+      <div className="hidden sm:grid grid-cols-3 gap-12 my-[10px] ">
         {onlineCourses.map((item, index) => (
           <div key={index} className="rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl">
             <img
