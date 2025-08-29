@@ -50,7 +50,7 @@ export default function FooterNew() {
                         </div>
                         <div className="text-white  pr-5 border-white">
                             <h2 className="text-[24px] mb-2 font-semibold capitalize">About Us</h2>
-                            <p className="text-[16px] leading-relaxed   tracking-wider" >InFrame Design Institute (IDI), established in 2013, is a premier
+                            <p className="text-[16px] text-justify leading-relaxed   tracking-wider" >InFrame Design Institute (IDI), established in 2013, is a premier
                                 design education center located in Jodhpur, Rajasthan. Founded by a
                                 group of artists,
                                 IDI offers comprehensive coaching for various
@@ -59,17 +59,17 @@ export default function FooterNew() {
 
                         </div>
 
-                        <div className="text-white  pr-3 h-[100%] border-white">
+                        <div className="text-white max-w-[220px]  pr-3 h-[100%] border-white">
                             <h2 className="text-[24px] font-semibold mb-4 capitalize ">Connect with us</h2>
-
-                            <img className="w-[140px] rounded mt-3 h-[140px]" src="http://localhost:3000/_next/image?url=%2FQrCode.avif&w=256&q=75" />
-                            <div className="flex items-center gap-4 mt-4">
-                                <Link href={'/about-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">About Us</p></Link>
-                                <Link href={'/contact-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">Contact Us</p></Link>
-                            </div>
                             <div className="mt-[15px]">
                                 <p className=" text-[16px]">Phone -  <span className="hover:underline duration-100 cursor-pointer">+91 9649964937</span></p>
                                 <p className=" text-[16px]"> <span className="hover:underline duration-100 cursor-pointer">info@inframedesigninstitute.com</span></p>
+                            </div>
+
+                            <img className="w-[140px] ml-5 rounded mt-3 h-[140px]" src="/QrCode.avif" />
+                            <div className="flex items-center gap-4 mt-4">
+                                <Link href={'/about-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">About Us</p></Link>
+                                <Link href={'/contact-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">Contact Us</p></Link>
                             </div>
 
 
@@ -88,7 +88,7 @@ export default function FooterNew() {
                             </div>
 
                             {/* App Promotion */}
-                            <h3 className="text-[20px] mt-6 font-semibold capitalize">
+                            <h3 className="text-[16px] mt-6 font-semibold capitalize">
                                 Get the app for better experience
                             </h3>
                             <div className="flex gap-1 mt-4 -ml-3">
@@ -108,11 +108,13 @@ export default function FooterNew() {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-col items-center bg-black text-white">
-                <p className="text-center py-[15px] ">© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved</p>
-                <div className="pb-[20px] flex gap-10">
-                    <span className="cursor-pointer hover:text-gray-300 duration-200">Terms and condition</span>
-                    <span className="cursor-pointer hover:text-gray-300 duration-200">Privacy Policy</span>
+            <div className="w-full flex flex-col items-center font-semibold text-[14px]  bg-black text-white">
+                <p className="text-center py-[3px] ">© 2025 Inframe Design Institute is a Unit of Inframe Educational Society Registered under the Rajasthan Society Act. All rights reserved</p>
+                <div className="pb-[20px] flex gap-3">
+                    <span className="cursor-pointer hover:text-gray-300 duration-200"> · Privacy Policy</span>
+                    <span className="cursor-pointer hover:text-gray-300 duration-200"> ·  Cancellation and Refund</span>
+                    <span className="cursor-pointer hover:text-gray-300 duration-200"> ·   Terms & Conditions</span>
+                    <span className="cursor-pointer hover:text-gray-300 duration-200"> · Shipping and Delivery</span>
                 </div>
             </div>
         </>

@@ -122,11 +122,17 @@ export default function Testimonials() {
 
     return (
         <div ref={cardRef} className="w-full bg-[#f8f8f8] py-10">
-            <h3 className="px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold text-black py-10 ">
-                Happy student&#39;s Testimonials
-            </h3>
 
-            <div className="max-w-[1320px] mx-auto px-3">
+
+            <div className="max-w-[1320px] mx-auto lg:px-6 px-3">
+                <h3 className="lg:text-[40px] text-[25px] capitalize text-start font-bold text-black pt-10 ">
+                    Happy student&#39;s Testimonials
+                </h3>
+                <div className="mb-[55px]">
+                    <p className="text-start mt-4 text-[20px] text-gray-800 font-normal">
+                        Explore how our platform has revolutionized the way our students learn and grow.
+                    </p>
+                </div>
                 <Slider ref={sliderRef} {...settings}>
                     {data.map((item, index) => (
                         <div key={index} className="px-4 ">

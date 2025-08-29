@@ -282,10 +282,10 @@ function Facility() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full lg:my-[60px] my-[30px] bg-[#f8f8f8] ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1320px] lg:pb-[60px] pb-[30px]  mx-auto text-center",
+            className: "max-w-[1320px] lg:pb-[60px] pb-[30px] mx-auto text-start",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black py-5 ",
+                    className: "px-6 lg:text-[40px] text-[25px] text-start font-bold  text-black py-5 ",
                     children: "Why Student Choose Us"
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Facility.jsx",
@@ -293,7 +293,7 @@ function Facility() {
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-gray-800 mb-10 text-lg",
+                    className: "text-gray-800 mb-10 lg:px-6 px-3 max-w-[1320px] mx-auto text-lg",
                     children: "We're not just another coaching institute — we're your launchpad to success."
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Facility.jsx",
@@ -869,7 +869,7 @@ function StudyMaterials() {
         className: "w-full  lg:my-[40px] my-[30px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold  text-black ",
+                className: "px-6 lg:text-[40px] text-[25px] capitalize text-start font-bold  text-black ",
                 children: "Study Resources"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
@@ -880,7 +880,7 @@ function StudyMaterials() {
                 className: "max-w-[1320px] lg:p-0 p-3  mx-auto lg:px-6 px-3",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-center text-[20px] mt-[10px]",
+                        className: "text-start text-[20px] mt-[10px]",
                         children: "A diverse array of learning materials to enhance your educational journey."
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
@@ -980,7 +980,7 @@ function TopCourses() {
             className: "max-w-[1320px] mx-auto",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black pt-5 ",
+                    className: "px-6 lg:text-[40px] text-[25px] text-start font-bold  text-black pt-5 ",
                     children: "Top Selling Course"
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1982,7 +1982,7 @@ function TestSeries() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-700",
+                                        className: "text-gray-800 text-justify tracking-tighter",
                                         children: item.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -2199,18 +2199,33 @@ function Testimonials() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: cardRef,
         className: "w-full bg-[#f8f8f8] py-10",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold text-black py-10 ",
-                children: "Happy student's Testimonials"
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 125,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-[1320px] mx-auto px-3",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[1320px] mx-auto lg:px-6 px-3",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "lg:text-[40px] text-[25px] capitalize text-start font-bold text-black pt-10 ",
+                    children: "Happy student's Testimonials"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                    lineNumber: 128,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "mb-[55px]",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-start mt-4 text-[20px] text-gray-800 font-normal",
+                        children: "Explore how our platform has revolutionized the way our students learn and grow."
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                        lineNumber: 132,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                    lineNumber: 131,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     ref: sliderRef,
                     ...settings,
                     children: data.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2233,20 +2248,20 @@ function Testimonials() {
                                                     onClick: ()=>toggleVideo(index)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 147,
                                                     columnNumber: 45
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-30"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 157,
                                                     columnNumber: 45
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 139,
+                                            lineNumber: 145,
                                             columnNumber: 41
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "relative w-full h-[500px] bg-cover bg-center",
@@ -2259,25 +2274,25 @@ function Testimonials() {
                                                     className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-40 text-[50px]",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPlay"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 170,
                                                         columnNumber: 49
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 163,
+                                                    lineNumber: 169,
                                                     columnNumber: 45
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-30"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 168,
+                                                    lineNumber: 174,
                                                     columnNumber: 45
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 155,
+                                            lineNumber: 161,
                                             columnNumber: 41
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2288,33 +2303,33 @@ function Testimonials() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
                                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                            lineNumber: 176,
+                                                            lineNumber: 182,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
                                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                            lineNumber: 177,
+                                                            lineNumber: 183,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
                                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                            lineNumber: 178,
+                                                            lineNumber: 184,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
                                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 185,
                                                             columnNumber: 45
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
                                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                            lineNumber: 180,
+                                                            lineNumber: 186,
                                                             columnNumber: 45
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 181,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -2322,7 +2337,7 @@ function Testimonials() {
                                                     children: item.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 188,
                                                     columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2330,43 +2345,43 @@ function Testimonials() {
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 183,
+                                                    lineNumber: 189,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 174,
+                                            lineNumber: 180,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                    lineNumber: 134,
+                                    lineNumber: 140,
                                     columnNumber: 33
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                lineNumber: 133,
+                                lineNumber: 139,
                                 columnNumber: 29
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                            lineNumber: 132,
+                            lineNumber: 138,
                             columnNumber: 25
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 130,
+                    lineNumber: 136,
                     columnNumber: 17
                 }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 129,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+            lineNumber: 127,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
         lineNumber: 124,
         columnNumber: 9
@@ -2633,7 +2648,7 @@ function TrustedPlatform() {
         className: "lg:py-[40px] py-[30px] ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold  text-black pt-5 ",
+                className: "px-6 lg:text-[40px] text-[25px] capitalize text-start font-bold  text-black pt-5 ",
                 children: "A Platform trusted by student"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TrustedPlatform.jsx",
@@ -2648,7 +2663,7 @@ function TrustedPlatform() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-[55px]",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-center mt-4 text-[24px] text-gray-800 font-bold",
+                                className: "text-start mt-4 text-[20px] text-gray-800 font-normal",
                                 children: "Inframe is not just a platform it is an opportunity for students to upskill and improve yourself."
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/TrustedPlatform.jsx",
@@ -2768,7 +2783,7 @@ function Loading() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-10 h-10 border-4 border-red-600 border-t-transparent rounded-full animate-spin"
+                        className: "w-10 h-10 border-4 border-gray-900 border-t-transparent rounded-full animate-spin"
                     }, void 0, false, {
                         fileName: "[project]/src/app/loading.jsx",
                         lineNumber: 7,

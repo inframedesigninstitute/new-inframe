@@ -80,9 +80,9 @@ export default function Facility() {
     return (
         <div className="w-full lg:my-[60px] my-[30px] bg-[#f8f8f8] ">
 
-            <div className="max-w-[1320px] lg:pb-[60px] pb-[30px]  mx-auto text-center">
-                <h3 className="px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black py-5 ">Why Student Choose Us</h3>
-                <p className="text-gray-800 mb-10 text-lg">
+            <div className="max-w-[1320px] lg:pb-[60px] pb-[30px] mx-auto text-start">
+                <h3 className="px-6 lg:text-[40px] text-[25px] text-start font-bold  text-black py-5 ">Why Student Choose Us</h3>
+                <p className="text-gray-800 mb-10 lg:px-6 px-3 max-w-[1320px] mx-auto text-lg">
                     We're not just another coaching institute — we're your launchpad to success.
                 </p>
                 {/* Slider for small screens */}

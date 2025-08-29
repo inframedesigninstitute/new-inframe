@@ -11,7 +11,7 @@ export default function TopCourses() {
   return (
     <div className="w-full ">
       <div className="max-w-[1320px] mx-auto">
-        <h3 className="px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black pt-5 ">Top Selling Course</h3>
+        <h3 className="px-6 lg:text-[40px] text-[25px] text-start font-bold  text-black pt-5 ">Top Selling Course</h3>
         <OnlineCourses />
         <OfflineCourses />
         <StudyMaterial />
@@ -418,7 +418,7 @@ export function TestSeries() {
             />
             <div className="p-6">
               <h2 className="text-[23px] font-semibold mb-2">{item.title}</h2>
-              <p className="text-gray-700">{item.description}</p>
+              <p className="text-gray-800 text-justify tracking-tighter">{item.description}</p>
               <p className="text-[28px] mt-2 font-semibold flex items-center gap-1 text-gray-950">
                 <FaIndianRupeeSign /> {item.price}/-
               </p>
