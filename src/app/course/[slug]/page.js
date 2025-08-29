@@ -74,25 +74,9 @@ export default function CoursePage() {
     <div className="w-full">
 
       <div className="max-w-[1320] mx-auto lg:px-6 px-3 lg:py-[0] sm:py-[20]">
-        <h3 className="py-[15px]  max-w-[400px] mt-5 px-3 rounded-[10px] text-[25px] bg-gray-900 text-white capitalize">{slug}</h3>
-        {/* <ul
-                    className={`grid grid-cols-10 items-center bg-gray-300 -skew-x-[10deg]`}
-                >
-                    {courses.map((item, index) => {
-                        return (
-                            <Link href={`/course/${item.replaceAll(/[^a-zA-Z0-9]/g, "-")}`}>
-                                <li
-                                    key={index}
-                                    className="py-[10px] px-[15px] cursor-pointer hover:bg-gray-600 hover:text-white duration-300"
-                                >
-                                    {item}
-                                </li>
-                            </Link>
-                        );
-                    })}
-                </ul> */}
+        <h3 className="pt-[10px] font-bold max-w-[400px] mt-5 text-[35px] text-gray-900 capitalize">{slug}</h3>
 
-        <div className="w-full  grid lg:grid-cols-[40%_auto] items-center gap-2 my-[30px]">
+        <div className="w-full  grid lg:grid-cols-[40%_auto] items-center gap-8 my-[30px]">
           <div className="sm:p-5 shadow-2xl  rounded-[0px]">
             <iframe
               className="rounded-[25px]"
@@ -106,9 +90,9 @@ export default function CoursePage() {
               allowFullScreen
             ></iframe>
           </div>
-          <div className="w-full max-w-4xl mx-auto px-4">
+          <div className="w-full max-w-4xl mx-auto px-4 bg-gradient-to-l from-black/5 via-transparent to-transparent">
             {/* Heading */}
-            <h3 className="text-3xl capitalize sm:text-[25px] font-bold text-gray-700 mb-2">
+            <h3 className="text-3xl capitalize sm:text-[30px] font-bold text-gray-800 mb-2">
               {slug}
             </h3>
 
@@ -138,7 +122,7 @@ export default function CoursePage() {
               ].map((item, i) => (
                 <li
                   key={i}
-                  className="flex items-center gap-2 bg-gray-600 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300"
+                  className="flex items-center gap-2 bg-gray-800 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300"
                 >
                   {item.icon}
                   {item.text}
@@ -147,13 +131,13 @@ export default function CoursePage() {
             </ul>
 
             {/* Price */}
-            <span className="text-[45px]  font-extrabold text-gray-700 block mb-6">
+            <span className="text-[45px]  font-extrabold text-gray-900 block mb-6">
               ₹ 1399/-
             </span>
 
             {/* Buttons */}
             <div className="grid sm:grid-cols-3 gap-4">
-              <button className="flex items-center justify-center gap-2 bg-gray-300 text-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium">
+              <button className="flex items-center justify-center gap-2 bg-gray-300 text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium">
                 <FaVideo />
                 Watch Demo
               </button>

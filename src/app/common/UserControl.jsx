@@ -19,14 +19,14 @@ export default function UserControl({ activePage, setActivePage }) {
 export function LoginForm({ activePage, setActivePage }) {
   let userLogin = (event) => {
     event.preventDefault();
-    // Swal.fire({
-    //   title: "Login Successfully !",
-    //   text: "You are now login",
-    //   icon: "success",
-    //   background: "white",
-    //   iconColor: "gray",
-    //   confirmButtonColor: "gray",
-    // });
+    Swal.fire({
+      title: "Login Successfully !",
+      text: "You are now login",
+      icon: "success",
+      background: "#f8f8f8",
+      iconColor: "black",
+      confirmButtonColor: "black",
+    });
     // Swal.fire({
     //   title: "OTP Sent",
     //   text: "Check your email Id to Verify",
@@ -42,13 +42,13 @@ export function LoginForm({ activePage, setActivePage }) {
     //     iconColor : 'gray',
     //     confirmButtonColor : 'gray'
     // })
-    Swal.fire({
-      title: "OTP Is Invalid",
-      icon: "error",
-      iconColor: "gray",
-      background: "white",
-      confirmButtonColor: "gray",
-    });
+    // Swal.fire({
+    //   title: "OTP Is Invalid",
+    //   icon: "error",
+    //   iconColor: "gray",
+    //   background: "white",
+    //   confirmButtonColor: "gray",
+    // });
   };
 
   return (

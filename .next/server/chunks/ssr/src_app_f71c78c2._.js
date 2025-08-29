@@ -265,151 +265,149 @@ function Facility() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "w-full lg:my-[60px] my-[30px] bg-[#f8f8f8] ",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold  text-black py-5 ",
-                children: "Why Student Choose Us"
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                lineNumber: 82,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "max-w-[1320px] lg:pb-[60px] pb-[30px]  mx-auto text-center",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-gray-600 mb-7 max-w-xl mx-auto text-lg",
-                        children: "We're not just another coaching institute — we're your launchpad to success."
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                        lineNumber: 84,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "sm:hidden",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            ...sliderSettings,
-                            children: highlights.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            backgroundImage: `url(${item.src})`
-                                        },
-                                        ref: (el)=>cardsRef.current[index] = el,
-                                        className: "relative rounded-3xl border bg-cover bg-center border-red-100 lg:p-8 p-10 text-center transition-all lg:mx-4 overflow-hidden px-5",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute top-0 left-0 w-full h-full bg-gradient-to-l from-black/80 via-black/70 to-black/50 z-10"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                lineNumber: 98,
-                                                columnNumber: 37
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "relative z-20",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        className: "text-[25px] font-bold text-white capitalize tracking-wide mb-3",
-                                                        children: item.heading
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                        lineNumber: 103,
-                                                        columnNumber: 41
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "text-white text-[14px] leading-relaxed",
-                                                        children: item.description
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                        lineNumber: 108,
-                                                        columnNumber: 41
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                lineNumber: 101,
-                                                columnNumber: 37
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                        lineNumber: 92,
-                                        columnNumber: 33
-                                    }, this)
-                                }, index, false, {
-                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                    lineNumber: 91,
-                                    columnNumber: 29
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                            lineNumber: 89,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                        lineNumber: 88,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden sm:grid grid-cols-3  w-full  mx-auto gap-12 lg:px-6",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[1320px] lg:pb-[60px] pb-[30px]  mx-auto text-center",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    className: "px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black py-5 ",
+                    children: "Why Student Choose Us"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                    lineNumber: 84,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    className: "text-gray-800 mb-10 text-lg",
+                    children: "We're not just another coaching institute — we're your launchpad to success."
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                    lineNumber: 85,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "sm:hidden",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        ...sliderSettings,
                         children: highlights.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    backgroundImage: `url(${item.src})`
-                                },
-                                ref: (el)=>cardsRef.current[index] = el,
-                                className: `w-[100%] h-[500px] bg-white relative bg-no-repeat  bg-cover bg-center bg-opacity-90 rounded-3xl shadow-lg border border-red-100 p-8 text-center transition-all  flex items-end`,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent rounded-3xl"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                        lineNumber: 127,
-                                        columnNumber: 29
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "z-40 text-start max-w-lg",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-[30px] font-bold text-white capitalize tracking-wide mb-3",
-                                                children: item.heading
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                lineNumber: 132,
-                                                columnNumber: 33
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-white text-[15px] leading-relaxed",
-                                                children: item.description
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                                lineNumber: 137,
-                                                columnNumber: 33
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                        lineNumber: 128,
-                                        columnNumber: 29
-                                    }, this)
-                                ]
-                            }, index, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        backgroundImage: `url(${item.src})`
+                                    },
+                                    ref: (el)=>cardsRef.current[index] = el,
+                                    className: "relative rounded-3xl border bg-cover bg-center border-red-100 lg:p-8 p-10 text-center transition-all lg:mx-4 overflow-hidden px-5",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute top-0 left-0 w-full h-full bg-gradient-to-l from-black/80 via-black/70 to-black/50 z-10"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                            lineNumber: 99,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative z-20",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-[25px] font-bold text-white capitalize tracking-wide mb-3",
+                                                    children: item.heading
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                                    lineNumber: 104,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-white text-[14px] leading-relaxed",
+                                                    children: item.description
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                                    lineNumber: 109,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                            lineNumber: 102,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 33
+                                }, this)
+                            }, index, false, {
                                 fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                                lineNumber: 121,
-                                columnNumber: 25
+                                lineNumber: 92,
+                                columnNumber: 29
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                        lineNumber: 119,
-                        columnNumber: 17
+                        lineNumber: 90,
+                        columnNumber: 21
                     }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/app/homePageComponents/Facility.jsx",
-                lineNumber: 83,
-                columnNumber: 13
-            }, this)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                    lineNumber: 89,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "hidden sm:grid grid-cols-3  w-full  mx-auto gap-12 lg:px-6",
+                    children: highlights.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                backgroundImage: `url(${item.src})`
+                            },
+                            ref: (el)=>cardsRef.current[index] = el,
+                            className: `w-[100%] h-[500px] bg-white relative bg-no-repeat  bg-cover bg-center bg-opacity-90 rounded-3xl shadow-lg border border-red-100 p-8 text-center transition-all  flex items-end`,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent rounded-3xl"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                    lineNumber: 128,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "z-40 text-start max-w-lg",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-[30px] font-bold text-white capitalize tracking-wide mb-3",
+                                            children: item.heading
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                            lineNumber: 133,
+                                            columnNumber: 33
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-white text-[15px] leading-relaxed",
+                                            children: item.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                            lineNumber: 138,
+                                            columnNumber: 33
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                                    lineNumber: 129,
+                                    columnNumber: 29
+                                }, this)
+                            ]
+                        }, index, true, {
+                            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                            lineNumber: 122,
+                            columnNumber: 25
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+                    lineNumber: 120,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/app/homePageComponents/Facility.jsx",
+            lineNumber: 83,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/app/homePageComponents/Facility.jsx",
         lineNumber: 81,
         columnNumber: 9
@@ -833,7 +831,7 @@ function StudyMaterials() {
         className: "w-full  lg:my-[40px] my-[30px]",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black ",
+                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold  text-black ",
                 children: "Study Resources"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
@@ -936,7 +934,7 @@ function TopCourses() {
             className: "max-w-[1320px] mx-auto",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "px-6 lg:text-[35px] text-[25px] text-center font-bold  text-black py-5 ",
+                    className: "px-6 lg:text-[40px] text-[25px] text-center font-bold  text-black pt-5 ",
                     children: "Top Selling Course"
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1010,11 +1008,11 @@ function OnlineCourses() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-0 py-3",
+                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] py-3 mb-5",
                 children: [
                     "Online ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-red-600",
+                        className: "text-gray-900",
                         children: " Best Selling "
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1094,7 +1092,7 @@ function OnlineCourses() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1196,7 +1194,7 @@ function OnlineCourses() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                 children: "Buy Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1268,11 +1266,11 @@ function OfflineCourses() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-10 my-5",
+                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] mt-10",
                 children: [
                     "Offline ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-red-600",
+                        className: "text-gray-900",
                         children: " Best Selling "
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1352,7 +1350,7 @@ function OfflineCourses() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1454,7 +1452,7 @@ function OfflineCourses() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                 children: "Buy Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1526,11 +1524,11 @@ function StudyMaterial() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-10 my-5",
+                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] mt-5",
                 children: [
                     "Offline ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-red-600",
+                        className: "text-gray-900",
                         children: " Best Selling "
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1610,7 +1608,7 @@ function StudyMaterial() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1712,7 +1710,7 @@ function StudyMaterial() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                 children: "Buy Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1764,19 +1762,19 @@ function TestSeries() {
         {
             title: "Interior Design Course",
             description: "Master the art of interior design by learning how to create cohesive room themes, apply color theory, and develop skills to elevate your design perspective.",
-            image: "https://www.questpond.com/img/2.png",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
             price: "1399"
         },
         {
             title: "Graphic Design Course",
             description: "Learn the fundamentals of visual communication, typography, and branding using tools like Adobe Photoshop and Illustrator to create stunning digital designs.",
-            image: "https://www.questpond.com/img/2.png",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
             price: "1599"
         },
         {
             title: "Digital Marketing Course",
             description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
-            image: "https://www.questpond.com/img/2.png",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
             price: "799"
         }
     ];
@@ -1788,7 +1786,7 @@ function TestSeries() {
                 children: [
                     "Test Series ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-red-600",
+                        className: "text-gray-900",
                         children: " Best Selling "
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1868,7 +1866,7 @@ function TestSeries() {
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1970,7 +1968,7 @@ function TestSeries() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-red-600 hover:bg-red-700 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
                                                 children: "Buy Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -2020,7 +2018,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$Scro
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-slick/lib/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
 'use client';
+;
+;
 ;
 ;
 ;
@@ -2031,7 +2032,8 @@ function Testimonials() {
     __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].registerPlugin(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$ScrollTrigger$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ScrollTrigger"]);
     const cardRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])();
     const sliderRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const [autoPlay, setAutoPlay] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    // State to track whether video is playing or not for each testimonial
+    const [activeVideoIndex, setActiveVideoIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].fromTo(cardRef.current, {
             y: '-80px',
@@ -2052,10 +2054,11 @@ function Testimonials() {
         dots: false,
         infinite: true,
         speed: 700,
-        slidesToShow: 4,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '10%',
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         arrows: false,
         pauseOnHover: true,
         responsive: [
@@ -2081,159 +2084,225 @@ function Testimonials() {
     };
     let data = [
         {
-            name: 'Rohan',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial0.mp4'
+            name: 'Arpit Choudhary',
+            description: "I've completed my NATA course from Inframe. It really helped me understand architectural design better.",
+            src: '/testimonial0.mp4',
+            thumbnail: '/testimonial0tb.png'
         },
         {
-            name: 'Kanika',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial1.mp4'
+            name: 'Mahi Khatri',
+            description: "I did my NIFT foundation course at Inframe. Their guidance gave me confidence to crack the entrance.",
+            src: '/testimonial1.mp4',
+            thumbnail: '/testimonial1tb.png'
         },
         {
-            name: 'Ayush',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial2.mp4'
+            name: 'Diwanakr',
+            description: "I've prepared for NATA with Inframe. The mentors' support made all the difference in my success.",
+            src: '/testimonial2.mp4',
+            thumbnail: '/testimonial2tb.png'
         },
         {
-            name: 'Rohan',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial2.mp4'
+            name: 'Arpit Choudhary',
+            description: "I've completed my NATA course from Inframe. It really helped me understand architectural design better.",
+            src: '/testimonial0.mp4',
+            thumbnail: '/testimonial0tb.png'
         },
         {
-            name: 'Rohan',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial2.mp4'
+            name: 'Mahi Khatri',
+            description: "I took NATA coaching at Inframe. Their techniques boosted my drawing skills significantly.",
+            src: '/testimonial1.mp4',
+            thumbnail: '/testimonial1tb.png'
         },
         {
-            name: 'Rohan',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit...',
-            src: '/testimonial2.mp4'
+            name: 'Diwanakr',
+            description: "I've done my NIFT course from Inframe. The expert feedback pushed me to improve every day.",
+            src: '/testimonial2.mp4',
+            thumbnail: '/testimonial2tb.png'
         }
     ];
+    // Toggle play/pause on video
+    const toggleVideo = (index)=>{
+        if (activeVideoIndex === index) {
+            // If the video is already playing, toggle it back to thumbnail
+            setActiveVideoIndex(null);
+        } else {
+            // Play the clicked video and set it as active
+            setActiveVideoIndex(index);
+        }
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: cardRef,
-        className: "w-full bg-white py-10",
+        className: "w-full bg-[#f8f8f8] py-10",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black py-10 ",
+                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold text-black py-10 ",
                 children: "Happy student's Testimonials"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 103,
-                columnNumber: 14
+                lineNumber: 125,
+                columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-[1320px] mx-auto px-3",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    onClick: ()=>setAutoPlay(!autoPlay),
-                    className: "cursor-pointer",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        ref: sliderRef,
-                        ...settings,
-                        children: data.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "px-2",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                    ref: sliderRef,
+                    ...settings,
+                    children: data.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-4 ",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "px-0",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-white p-4 rounded-[20px]  border-[1px] border-gray-200 h-full",
+                                    className: "bg-white relative p-0 rounded-[20px] cursor-pointer min-h-[500px] h-full overflow-hidden",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                            className: "w-full h-[300px] object-cover rounded-[15px] mb-4",
-                                            src: item.src,
-                                            muted: true,
-                                            playsInline: true,
-                                            preload: "metadata",
-                                            onClick: (e)=>{
-                                                if (autoPlay) {
-                                                    e.target.play();
-                                                } else {
-                                                    e.target.pause();
-                                                }
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 111,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "flex items-center gap-2 text-[20px] text-amber-400 mb-2",
+                                        activeVideoIndex === index ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                                    className: "w-full h-[500px] object-cover",
+                                                    src: item.src,
+                                                    muted: true,
+                                                    playsInline: true,
+                                                    preload: "metadata",
+                                                    autoPlay: true,
+                                                    onClick: ()=>toggleVideo(index)
+                                                }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 108
+                                                    lineNumber: 141,
+                                                    columnNumber: 45
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-30"
+                                                }, void 0, false, {
                                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 118
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
-                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 128
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
-                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 138
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
-                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                                    lineNumber: 126,
-                                                    columnNumber: 148
+                                                    lineNumber: 151,
+                                                    columnNumber: 45
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 126,
-                                            columnNumber: 37
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                            className: "text-xl font-semibold mb-1 text-black",
-                                            children: item.name
-                                        }, void 0, false, {
+                                            lineNumber: 139,
+                                            columnNumber: 41
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative w-full h-[500px] bg-cover bg-center",
+                                            style: {
+                                                backgroundImage: `url(${item.thumbnail})`
+                                            },
+                                            onClick: ()=>toggleVideo(index),
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-40 text-[50px]",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaPlay"], {}, void 0, false, {
+                                                        fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                        lineNumber: 164,
+                                                        columnNumber: 49
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                    lineNumber: 163,
+                                                    columnNumber: 45
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-30"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                    lineNumber: 168,
+                                                    columnNumber: 45
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 127,
-                                            columnNumber: 37
+                                            lineNumber: 155,
+                                            columnNumber: 41
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-sm text-gray-600",
-                                            children: item.description
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "absolute bottom-0 left-0 w-full z-40 px-4 py-5 text-white  min-h-[210px] bg-gradient-to-t from-black/70 via-black/10 to-transparent",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "flex items-center gap-2 text-[20px] text-amber-300 mb-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                            lineNumber: 176,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                            lineNumber: 177,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                            lineNumber: 178,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                            lineNumber: 179,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaStar"], {}, void 0, false, {
+                                                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                            lineNumber: 180,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                    lineNumber: 175,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                    className: "text-[25px] font-semibold my-2",
+                                                    children: item.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                    lineNumber: 182,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-md text-gray-200",
+                                                    children: item.description
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                                                    lineNumber: 183,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                            lineNumber: 128,
+                                            lineNumber: 174,
                                             columnNumber: 37
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                    lineNumber: 110,
+                                    lineNumber: 134,
                                     columnNumber: 33
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                                lineNumber: 109,
+                                lineNumber: 133,
                                 columnNumber: 29
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                        lineNumber: 107,
-                        columnNumber: 21
-                    }, this)
+                            }, this)
+                        }, index, false, {
+                            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                            lineNumber: 132,
+                            columnNumber: 25
+                        }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 106,
+                    lineNumber: 130,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                lineNumber: 105,
+                lineNumber: 129,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-        lineNumber: 102,
+        lineNumber: 124,
         columnNumber: 9
     }, this);
 }
@@ -2467,10 +2536,10 @@ function TrustedPlatform() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "lg:py-[40px] py-[30px] bg-[#f8f8f8]",
+        className: "lg:py-[40px] py-[30px] ",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black pt-5 ",
+                className: "px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold  text-black pt-5 ",
                 children: "A Platform trusted by student"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TrustedPlatform.jsx",

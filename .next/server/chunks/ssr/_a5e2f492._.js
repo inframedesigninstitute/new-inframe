@@ -19,10 +19,10 @@ function About() {
                 style: {
                     backgroundImage: 'url("/games.jpg")'
                 },
-                className: "w-full h-[70vh] relative  bg-no-repeat bg-fixed bg-cover bg-center ",
+                className: "w-full h-[70vh] relative  bg-no-repeat bg-cover bg-center ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-[100%] z-10 h-[100%] absolute top-0 left-0 bg-gradient-to-r from-black/100 via-black/80 to-transparent"
+                        className: "w-[100%] z-10 h-[100%] absolute top-0 left-0 bg-gradient-to-r from-black/100 via-black/70 to-transparent"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about-us/page.js",
                         lineNumber: 13,
@@ -32,10 +32,7 @@ function About() {
                         className: "relative text-white z-20",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                style: {
-                                    background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
-                                },
-                                className: "px-6 lg:text-[35px] text-[35px] font-bold uppercase text-white py-5 mb-5",
+                                className: "px-6 bg-transparent lg:text-[40px] text-[35px] font-bold capitalize text-white pt-12 mb-5",
                                 children: "A Platform That Upskills Students"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
@@ -46,33 +43,25 @@ function About() {
                                 className: "pt-10 px-6 max-w-[580px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-[35px] text-white/55 mb-2 leading-[45px] tracking-[3px] ",
+                                        className: "text-[32px] text-white/55 mb-2 leading-[45px] font-semibold ",
                                         children: "Inframe school of art, design & business"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about-us/page.js",
-                                        lineNumber: 21,
+                                        lineNumber: 20,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-white/45 text-justify text-[18px] tracking-tight leading-[35px]",
-                                        children: [
-                                            " Is established by the Inframe Educational Society under Rajasthan shed by the Inframe Educational Society under RajEducational Society under Rajasthan shed by the Inframe  of art, design and business will be one of. ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/src/app/about-us/page.js",
-                                                lineNumber: 22,
-                                                columnNumber: 326
-                                            }, this),
-                                            "Is established by the Inframe Educational Society under Rajasthan Is established by the Inframe Educational Society under RajasthanIs established by the Inframe Educational Society under Rajasthan"
-                                        ]
-                                    }, void 0, true, {
+                                        children: " Is established by the Inframe Educational Society under Rajasthan shed by the Inframe Educational Society under RajEducational Society under Rajasthan shed by the Inframe  of art, design and business will be one of."
+                                    }, void 0, false, {
                                         fileName: "[project]/src/app/about-us/page.js",
-                                        lineNumber: 22,
+                                        lineNumber: 21,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 20,
+                                lineNumber: 19,
                                 columnNumber: 21
                             }, this)
                         ]
@@ -90,70 +79,67 @@ function About() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "bg-white w-full",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "max-w-[1320] grid grid-cols-[40%_auto] gap-10 mx-auto lg:py-[60px] py-[30px] lg:px-6 px-3",
+                    className: "max-w-[1320] grid grid-cols-[40%_auto] gap-5 mx-auto lg:py-[60px] py-[30px] lg:px-6 px-3",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             width: 800,
                             height: 800,
-                            className: "hover:scale-[1.05] duration-300 w-[100%] rounded-[35px]",
+                            className: "hover:scale-[1.01] duration-300 w-[100%]",
                             src: "/aboutUsPic.JPG"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about-us/page.js",
-                            lineNumber: 30,
+                            lineNumber: 28,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-white border-b-4 border-r-4 shadow-sm shadow-red-200 border-red-600 rounded-3xl p-10  hover:shadow-lg transition-shadow duration-100 ",
+                            className: "bg-gradient-to-l from-black/5 via-white to-white p-5  transition-shadow duration-100 ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "uppercase font-bold text-red-700 text-2xl sm:text-3xl mb-4 tracking-wide",
+                                    className: "capitalize font-bold text-gray-900 text-2xl sm:text-[35px] mb-4 tracking-wide",
                                     children: "About Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about-us/page.js",
-                                    lineNumber: 32,
+                                    lineNumber: 30,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-gray-700 text-base  sm:text-[19px] leading-relaxed text-justify",
+                                    className: "text-gray-900 text-base  sm:text-[19px] leading-relaxed text-justify",
                                     children: "Inframes school of art, design & business is established by the Inframe Educational Society under Rajasthan Societies Act 1958. Inframe school of art, design and business will be one of a kind design institute in Jodhpur which will commence it's curriculum with the aim to expand the design and business field in Jodhpur and it's surrounding regions by being the first design."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about-us/page.js",
-                                    lineNumber: 35,
+                                    lineNumber: 33,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about-us/page.js",
-                            lineNumber: 31,
+                            lineNumber: 29,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about-us/page.js",
-                    lineNumber: 29,
+                    lineNumber: 27,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about-us/page.js",
-                lineNumber: 28,
+                lineNumber: 26,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-white w-full",
+                className: "bg-[#f8f8f8] w-full",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        style: {
-                            background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
-                        },
-                        className: "px-6 lg:text-[35px] text-[35px] font-bold uppercase text-white py-5  mb-5",
+                        className: "px-6 text-gray-900 lg:text-[40px] text-[40px] font-bold capitalize py-5 mb-5",
                         children: "Gallery"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about-us/page.js",
-                        lineNumber: 44,
+                        lineNumber: 41,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-[60%_auto] lg:px-6 px-3 gap-[35px] lg:my-[40px] my-[30px]",
+                        className: "grid grid-cols-[60%_auto] lg:px-6 px-3 gap-[35px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -163,8 +149,37 @@ function About() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 width: 800,
                                                 height: 800,
-                                                className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] mb-[35px] rounded-[5px]",
+                                                className: "hover:scale-[1.03] duration-300 w-[100%] h-[100%] mb-[35px] rounded-[5px]",
                                                 src: "/gallery1.JPG"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/about-us/page.js",
+                                                lineNumber: 47,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                width: 800,
+                                                height: 800,
+                                                className: "hover:scale-[1.03] duration-300 mb-[35px] rounded-[5px] w-[100%] h-[100%]",
+                                                src: "/gallery2.JPG"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/about-us/page.js",
+                                                lineNumber: 48,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/about-us/page.js",
+                                        lineNumber: 46,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "grid grid-cols-2 gap-[35px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                width: 800,
+                                                height: 800,
+                                                className: "hover:scale-[1.03] duration-300 rounded-[5px]",
+                                                src: "/gallery3.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 51,
@@ -173,8 +188,8 @@ function About() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                 width: 800,
                                                 height: 800,
-                                                className: "hover:scale-[1.05] duration-300 mb-[35px] rounded-[5px] w-[100%] h-[100%]",
-                                                src: "/gallery2.JPG"
+                                                className: "hover:scale-[1.03] duration-300 rounded-[5px] w-[100%] h-[100%]",
+                                                src: "/gallery4.JPG"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/about-us/page.js",
                                                 lineNumber: 52,
@@ -185,107 +200,78 @@ function About() {
                                         fileName: "[project]/src/app/about-us/page.js",
                                         lineNumber: 50,
                                         columnNumber: 25
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "grid grid-cols-2 gap-[35px]",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                width: 800,
-                                                height: 800,
-                                                className: "hover:scale-[1.05] duration-300 rounded-[5px]",
-                                                src: "/gallery3.JPG"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/about-us/page.js",
-                                                lineNumber: 55,
-                                                columnNumber: 29
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                width: 800,
-                                                height: 800,
-                                                className: "hover:scale-[1.05] duration-300 rounded-[5px] w-[100%] h-[100%]",
-                                                src: "/gallery4.JPG"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/about-us/page.js",
-                                                lineNumber: 56,
-                                                columnNumber: 29
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/about-us/page.js",
-                                        lineNumber: 54,
-                                        columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 49,
+                                lineNumber: 45,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     width: 800,
                                     height: 800,
-                                    className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
+                                    className: "hover:scale-[1.03] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
                                     src: "/gallery8.jpg"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about-us/page.js",
-                                    lineNumber: 60,
+                                    lineNumber: 56,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 59,
+                                lineNumber: 55,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about-us/page.js",
-                        lineNumber: 48,
+                        lineNumber: 44,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-[40%_35%_auto] mb-[100px] h-[300px] lg:px-6 px-3 gap-[35px]",
+                        className: "grid grid-cols-[40%_35%_auto] h-auto my-[40px] pb-10 lg:px-6 px-3 gap-[35px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 width: 800,
                                 height: 800,
-                                className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px] ",
+                                className: "hover:scale-[1.03] duration-300 w-[100%] h-[100%] object-cover rounded-[5px] ",
                                 src: "/gallery6.JPG"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 64,
+                                lineNumber: 60,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 width: 800,
                                 height: 800,
-                                className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
+                                className: "hover:scale-[1.03] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
                                 src: "/gallery7.jpg"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 65,
+                                lineNumber: 61,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 width: 800,
                                 height: 800,
-                                className: "hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
+                                className: "hover:scale-[1.03] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]",
                                 src: "/gallery5.JPG"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about-us/page.js",
-                                lineNumber: 66,
+                                lineNumber: 62,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about-us/page.js",
-                        lineNumber: 63,
+                        lineNumber: 59,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/about-us/page.js",
-                lineNumber: 43,
+                lineNumber: 40,
                 columnNumber: 13
             }, this)
         ]

@@ -77,7 +77,7 @@ function CoursePage() {
             className: "max-w-[1320] mx-auto lg:px-6 px-3 lg:py-[0] sm:py-[20]",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "py-[15px]  max-w-[400px] mt-5 px-3 rounded-[10px] text-[25px] bg-gray-900 text-white capitalize",
+                    className: "pt-[10px] font-bold max-w-[400px] mt-5 text-[35px] text-gray-900 capitalize",
                     children: slug
                 }, void 0, false, {
                     fileName: "[project]/src/app/course/[slug]/page.js",
@@ -85,7 +85,7 @@ function CoursePage() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full  grid lg:grid-cols-[40%_auto] items-center gap-2 my-[30px]",
+                    className: "w-full  grid lg:grid-cols-[40%_auto] items-center gap-8 my-[30px]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "sm:p-5 shadow-2xl  rounded-[0px]",
@@ -101,23 +101,23 @@ function CoursePage() {
                                 allowFullScreen: true
                             }, void 0, false, {
                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                lineNumber: 97,
+                                lineNumber: 81,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/course/[slug]/page.js",
-                            lineNumber: 96,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-full max-w-4xl mx-auto px-4",
+                            className: "w-full max-w-4xl mx-auto px-4 bg-gradient-to-l from-black/5 via-transparent to-transparent",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-3xl capitalize sm:text-[25px] font-bold text-gray-700 mb-2",
+                                    className: "text-3xl capitalize sm:text-[30px] font-bold text-gray-800 mb-2",
                                     children: slug
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 111,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -125,7 +125,7 @@ function CoursePage() {
                                     children: "NIFT course is an online program designed to enhance students' abilities in fashion and design. This structugray curriculum includes daily recorded lectures, live mentorship, and mock tests to ensure deep conceptual clarity and competitive edge."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 116,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -136,7 +136,7 @@ function CoursePage() {
                                                 className: "text-[20px]"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                                lineNumber: 127,
+                                                lineNumber: 111,
                                                 columnNumber: 25
                                             }, this),
                                             text: "3+ Mock Tests"
@@ -146,7 +146,7 @@ function CoursePage() {
                                                 className: "text-[20px]"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                                lineNumber: 131,
+                                                lineNumber: 115,
                                                 columnNumber: 25
                                             }, this),
                                             text: "Mentor Support"
@@ -156,51 +156,51 @@ function CoursePage() {
                                                 className: "text-[20px]"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                                lineNumber: 135,
+                                                lineNumber: 119,
                                                 columnNumber: 25
                                             }, this),
                                             text: "Daily Recordings"
                                         }
                                     ].map((item, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "flex items-center gap-2 bg-gray-600 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300",
+                                            className: "flex items-center gap-2 bg-gray-800 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300",
                                             children: [
                                                 item.icon,
                                                 item.text
                                             ]
                                         }, i, true, {
                                             fileName: "[project]/src/app/course/[slug]/page.js",
-                                            lineNumber: 139,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 124,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-[45px]  font-extrabold text-gray-700 block mb-6",
+                                    className: "text-[45px]  font-extrabold text-gray-900 block mb-6",
                                     children: "₹ 1399/-"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 150,
+                                    lineNumber: 134,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "grid sm:grid-cols-3 gap-4",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            className: "flex items-center justify-center gap-2 bg-gray-300 text-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium",
+                                            className: "flex items-center justify-center gap-2 bg-gray-300 text-gray-700 hover:bg-gray-800 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaVideo"], {}, void 0, false, {
                                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                                    lineNumber: 157,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Watch Demo"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/course/[slug]/page.js",
-                                            lineNumber: 156,
+                                            lineNumber: 140,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -208,25 +208,25 @@ function CoursePage() {
                                             children: "Buy Now"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/course/[slug]/page.js",
-                                            lineNumber: 160,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 155,
+                                    lineNumber: 139,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/course/[slug]/page.js",
-                            lineNumber: 109,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/course/[slug]/page.js",
-                    lineNumber: 95,
+                    lineNumber: 79,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -241,7 +241,7 @@ function CoursePage() {
                                     children: "Frequently Asked Questions"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/course/[slug]/page.js",
-                                    lineNumber: 171,
+                                    lineNumber: 155,
                                     columnNumber: 15
                                 }, this),
                                 faqs.map((item, index)=>{
@@ -257,17 +257,17 @@ function CoursePage() {
                                                     item.question,
                                                     item.id === currentFaqId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaMinusCircle"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/course/[slug]/page.js",
-                                                        lineNumber: 188,
+                                                        lineNumber: 172,
                                                         columnNumber: 25
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaPlusCircle"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/course/[slug]/page.js",
-                                                        lineNumber: 190,
+                                                        lineNumber: 174,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                                lineNumber: 178,
+                                                lineNumber: 162,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -275,30 +275,30 @@ function CoursePage() {
                                                 children: item.answer
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/course/[slug]/page.js",
-                                                lineNumber: 193,
+                                                lineNumber: 177,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/src/app/course/[slug]/page.js",
-                                        lineNumber: 177,
+                                        lineNumber: 161,
                                         columnNumber: 19
                                     }, this);
                                 })
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/course/[slug]/page.js",
-                            lineNumber: 170,
+                            lineNumber: 154,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/course/[slug]/page.js",
-                        lineNumber: 169,
+                        lineNumber: 153,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/course/[slug]/page.js",
-                    lineNumber: 168,
+                    lineNumber: 152,
                     columnNumber: 9
                 }, this)
             ]

@@ -8,6 +8,7 @@
   "static/chunks/node_modules_framer-motion_dist_es_c4413217._.js",
   "static/chunks/node_modules_gsap_27523451._.js",
   "static/chunks/node_modules_react-icons_fa6_index_mjs_00e856c4._.js",
+  "static/chunks/node_modules_next_15251bc2._.js",
   "static/chunks/node_modules_e5815e99._.js"
 ],
     source: "dynamic"

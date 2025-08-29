@@ -117,8 +117,8 @@ export default function Header() {
               <HiOutlineBars3CenterLeft />
             </button>
             <img
-              className="w-[100px] object-cover"
-              src="https://inframestudios.co.nz/wp-content/uploads/2025/01/Copy-of-Original-size-inframe-studios-removebg-preview-removebg-preview.png"
+              className="w-[100px] object-cover h-[50px]"
+              src="/responsiveLogo.jpg"
               alt=""
             />
           </div>
@@ -138,8 +138,8 @@ export default function Header() {
         >
           <div className="flex justify-between pr-[6px]">
             <img
-              className="w-[200px] object-cover"
-              src="https://inframestudios.co.nz/wp-content/uploads/2025/01/Copy-of-Original-size-inframe-studios-removebg-preview-removebg-preview.png"
+              className="w-[200px] h-[100px] object-cover"
+              src="/logo.jpg"
               alt=""
             />
             <button

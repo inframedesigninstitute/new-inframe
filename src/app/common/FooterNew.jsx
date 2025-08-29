@@ -11,7 +11,7 @@ export default function FooterNew() {
 
     return (
         <>
-            <div className="w-full lg:mt-[60px] mt-[30px]  bg-[#f8f8f8] text-black lg:px-6 px-3">
+            <div className="w-full lg:mt-[60px] mt-[30px]  bg-gradient-to-b from-black/5 via-transparent to-transparent text-black lg:px-6 px-3">
                 <div className="max-w-[1320px] mx-auto py-[30px] ">
                     <h2 className="text-[30px] text-black font-bold capitalize mb-5 pb-1">Courses We Provide</h2>
                     <div className="grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10">
@@ -60,13 +60,19 @@ export default function FooterNew() {
                         </div>
 
                         <div className="text-white  pr-3 h-[100%] border-white">
-                            <h2 className="text-[24px] font-semibold mb-4 capitalize  text-center">Connect with us</h2>
+                            <h2 className="text-[24px] font-semibold mb-4 capitalize ">Connect with us</h2>
 
-                            <img className="w-[140px] rounded mx-auto mt-3 h-[140px]" src="http://localhost:3000/_next/image?url=%2FQrCode.avif&w=256&q=75" />
-                            <div className="mt-[15px]">
-                                <p className="text-center text-[16px]">Phone -  <span className="hover:underline duration-100 cursor-pointer">+91 9649964937</span></p>
-                                <p className="text-center text-[16px]"> <span className="hover:underline duration-100 cursor-pointer">info@inframedesigninstitute.com</span></p>
+                            <img className="w-[140px] rounded mt-3 h-[140px]" src="http://localhost:3000/_next/image?url=%2FQrCode.avif&w=256&q=75" />
+                            <div className="flex items-center gap-4 mt-4">
+                                <Link href={'/about-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">About Us</p></Link>
+                                <Link href={'/contact-us'}><p className="cursor-pointer hover:text-gray-300 duration-200">Contact Us</p></Link>
                             </div>
+                            <div className="mt-[15px]">
+                                <p className=" text-[16px]">Phone -  <span className="hover:underline duration-100 cursor-pointer">+91 9649964937</span></p>
+                                <p className=" text-[16px]"> <span className="hover:underline duration-100 cursor-pointer">info@inframedesigninstitute.com</span></p>
+                            </div>
+
+
 
 
                         </div>
@@ -107,8 +113,6 @@ export default function FooterNew() {
                 <div className="pb-[20px] flex gap-10">
                     <span className="cursor-pointer hover:text-gray-300 duration-200">Terms and condition</span>
                     <span className="cursor-pointer hover:text-gray-300 duration-200">Privacy Policy</span>
-                    <span className="cursor-pointer hover:text-gray-300 duration-200">Contact Us</span>
-                    <span className="cursor-pointer hover:text-gray-300 duration-200">About Us</span>
                 </div>
             </div>
         </>

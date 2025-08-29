@@ -47,36 +47,36 @@ function LoginForm(param) {
     let { activePage, setActivePage } = param;
     let userLogin = (event)=>{
         event.preventDefault();
-        // Swal.fire({
-        //   title: "Login Successfully !",
-        //   text: "You are now login",
-        //   icon: "success",
-        //   background: "white",
-        //   iconColor: "gray",
-        //   confirmButtonColor: "gray",
-        // });
-        // Swal.fire({
-        //   title: "OTP Sent",
-        //   text: "Check your email Id to Verify",
-        //   icon: "success",
-        //   background: "white",
-        //   iconColor: "gray",
-        //   confirmButtonColor: "gray",
-        // });
-        // Swal.fire({
-        //     title : 'OTP Verified',
-        //     icon : 'success',
-        //     background : 'white',
-        //     iconColor : 'gray',
-        //     confirmButtonColor : 'gray'
-        // })
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$all$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].fire({
-            title: "OTP Is Invalid",
-            icon: "error",
-            iconColor: "gray",
-            background: "white",
-            confirmButtonColor: "gray"
+            title: "Login Successfully !",
+            text: "You are now login",
+            icon: "success",
+            background: "#f8f8f8",
+            iconColor: "black",
+            confirmButtonColor: "black"
         });
+    // Swal.fire({
+    //   title: "OTP Sent",
+    //   text: "Check your email Id to Verify",
+    //   icon: "success",
+    //   background: "white",
+    //   iconColor: "gray",
+    //   confirmButtonColor: "gray",
+    // });
+    // Swal.fire({
+    //     title : 'OTP Verified',
+    //     icon : 'success',
+    //     background : 'white',
+    //     iconColor : 'gray',
+    //     confirmButtonColor : 'gray'
+    // })
+    // Swal.fire({
+    //   title: "OTP Is Invalid",
+    //   icon: "error",
+    //   iconColor: "gray",
+    //   background: "white",
+    //   confirmButtonColor: "gray",
+    // });
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "fixed lg:w-[350px] w-[320px] h-[auto] z-[1000] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-[10px] shadow-md shadow-gray-600",
@@ -1081,8 +1081,8 @@ function Header() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-[100px] object-cover",
-                                        src: "https://inframestudios.co.nz/wp-content/uploads/2025/01/Copy-of-Original-size-inframe-studios-removebg-preview-removebg-preview.png",
+                                        className: "w-[100px] object-cover h-[50px]",
+                                        src: "/responsiveLogo.jpg",
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/Header.jsx",
@@ -1120,8 +1120,8 @@ function Header() {
                                 className: "flex justify-between pr-[6px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-[200px] object-cover",
-                                        src: "https://inframestudios.co.nz/wp-content/uploads/2025/01/Copy-of-Original-size-inframe-studios-removebg-preview-removebg-preview.png",
+                                        className: "w-[200px] h-[100px] object-cover",
+                                        src: "/logo.jpg",
                                         alt: ""
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/Header.jsx",
@@ -1343,7 +1343,7 @@ function FooterNew() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full lg:mt-[60px] mt-[30px]  bg-[#f8f8f8] text-black lg:px-6 px-3",
+                className: "w-full lg:mt-[60px] mt-[30px]  bg-gradient-to-b from-black/5 via-transparent to-transparent text-black lg:px-6 px-3",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-[1320px] mx-auto py-[30px] ",
                     children: [
@@ -1567,7 +1567,7 @@ function FooterNew() {
                                 className: "text-white  pr-3 h-[100%] border-white",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-[24px] font-semibold mb-4 capitalize  text-center",
+                                        className: "text-[24px] font-semibold mb-4 capitalize ",
                                         children: "Connect with us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
@@ -1575,7 +1575,7 @@ function FooterNew() {
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-[140px] rounded mx-auto mt-3 h-[140px]",
+                                        className: "w-[140px] rounded mt-3 h-[140px]",
                                         src: "http://localhost:3000/_next/image?url=%2FQrCode.avif&w=256&q=75"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
@@ -1583,40 +1583,34 @@ function FooterNew() {
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-[15px]",
+                                        className: "flex items-center gap-4 mt-4",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-center text-[16px]",
-                                                children: [
-                                                    "Phone -  ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "hover:underline duration-100 cursor-pointer",
-                                                        children: "+91 9649964937"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 67,
-                                                        columnNumber: 81
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: '/about-us',
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "cursor-pointer hover:text-gray-300 duration-200",
+                                                    children: "About Us"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                    lineNumber: 67,
+                                                    columnNumber: 58
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
                                                 lineNumber: 67,
                                                 columnNumber: 33
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-center text-[16px]",
-                                                children: [
-                                                    " ",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "hover:underline duration-100 cursor-pointer",
-                                                        children: "info@inframedesigninstitute.com"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 68,
-                                                        columnNumber: 73
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: '/contact-us',
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "cursor-pointer hover:text-gray-300 duration-200",
+                                                    children: "Contact Us"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                    lineNumber: 68,
+                                                    columnNumber: 60
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
                                                 lineNumber: 68,
                                                 columnNumber: 33
@@ -1625,6 +1619,51 @@ function FooterNew() {
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
                                         lineNumber: 66,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-[15px]",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: " text-[16px]",
+                                                children: [
+                                                    "Phone -  ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "hover:underline duration-100 cursor-pointer",
+                                                        children: "+91 9649964937"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                        lineNumber: 71,
+                                                        columnNumber: 70
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                lineNumber: 71,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: " text-[16px]",
+                                                children: [
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "hover:underline duration-100 cursor-pointer",
+                                                        children: "info@inframedesigninstitute.com"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                        lineNumber: 72,
+                                                        columnNumber: 62
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/common/FooterNew.jsx",
+                                                lineNumber: 72,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/common/FooterNew.jsx",
+                                        lineNumber: 70,
                                         columnNumber: 29
                                     }, this)
                                 ]
@@ -1641,7 +1680,7 @@ function FooterNew() {
                                         children: "Social Channels"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 81,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1651,41 +1690,41 @@ function FooterNew() {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 77,
+                                                lineNumber: 83,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebookSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 78,
+                                                lineNumber: 84,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RiInstagramFill"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 79,
+                                                lineNumber: 85,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTwitterSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 80,
+                                                lineNumber: 86,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 81,
+                                                lineNumber: 87,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 82,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1693,7 +1732,7 @@ function FooterNew() {
                                         children: "Get the app for better experience"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 91,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1705,7 +1744,7 @@ function FooterNew() {
                                                 alt: "Get it on Google Play"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 89,
+                                                lineNumber: 95,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1714,19 +1753,19 @@ function FooterNew() {
                                                 alt: "Download on the App Store"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 94,
+                                                lineNumber: 100,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 94,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 73,
+                                lineNumber: 79,
                                 columnNumber: 25
                             }, this)
                         ]
@@ -1753,7 +1792,7 @@ function FooterNew() {
                         children: "© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved"
                     }, void 0, false, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 106,
+                        lineNumber: 112,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1764,7 +1803,7 @@ function FooterNew() {
                                 children: "Terms and condition"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 108,
+                                lineNumber: 114,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1772,35 +1811,19 @@ function FooterNew() {
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 109,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "cursor-pointer hover:text-gray-300 duration-200",
-                                children: "Contact Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 110,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "cursor-pointer hover:text-gray-300 duration-200",
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 111,
+                                lineNumber: 115,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 107,
+                        lineNumber: 113,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 105,
+                lineNumber: 111,
                 columnNumber: 13
             }, this)
         ]

@@ -52,8 +52,8 @@ export default function TrustedPlatform() {
 
     return (
 
-        <div className="lg:py-[40px] py-[30px] bg-[#f8f8f8]">
-            <h3 className="px-6 lg:text-[35px] text-[25px] capitalize text-center font-bold  text-black pt-5 ">A Platform trusted by student</h3>
+        <div className="lg:py-[40px] py-[30px] ">
+            <h3 className="px-6 lg:text-[40px] text-[25px] capitalize text-center font-bold  text-black pt-5 ">A Platform trusted by student</h3>
             <div className="w-full px-6 p-3">
 
                 <div className="max-w-[1320px] mx-auto ">

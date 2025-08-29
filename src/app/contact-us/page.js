@@ -71,13 +71,13 @@ export default function Contact() {
                 </div>
 
             </div>
-            <div className="w-full bg-[#f8f8f8]">
+            <div className="w-full bg-[#f8f8f8] bg-gradient-to-b from-black/5 via-white to-white">
                 <div className="max-w-[1320px] mx-auto lg:px-6 px-3 py-[30px]">
                     <h3 className="text-[40px] text-center font-bold capitalize mb-10 text-gray-900">Get in touch</h3>
 
                     <div className="lg:grid grid-cols-3 gap-10 ">
                         <div
-                            className="w-full rounded-[8] text-gray-900 shadow-2xl p-7 mb-[30px] bg-white"
+                            className="w-full rounded-[8] text-gray-900 shadow-2xl lg:p-7 p-3 mb-[30px] bg-white"
                         >
                             <h3 className="text-[30px] mb-2  font-semibold">Visit Us</h3>
                             <p className="mb-0 text-[22px]">We are located at :</p>
