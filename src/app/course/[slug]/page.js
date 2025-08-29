@@ -25,7 +25,7 @@ export default function CoursePage() {
       id: "2",
       question: "How can I enroll in a course?",
       answer:
-        "You can enroll by selecting your preferred course on our website and clicking the &#39;Buy Now&#39; or &#39;Add to Cart&#39; button.",
+        "You can enroll by selecting your prefergray course on our website and clicking the &#39;Buy Now&#39; or &#39;Add to Cart&#39; button.",
     },
     {
       id: "3",
@@ -72,8 +72,9 @@ export default function CoursePage() {
 
   return (
     <div className="w-full">
-      <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-5">{slug}</h3>
+
       <div className="max-w-[1320] mx-auto lg:px-6 px-3 lg:py-[0] sm:py-[20]">
+        <h3 className="py-[15px]  max-w-[400px] mt-5 px-3 rounded-[10px] text-[25px] bg-gray-900 text-white capitalize">{slug}</h3>
         {/* <ul
                     className={`grid grid-cols-10 items-center bg-gray-300 -skew-x-[10deg]`}
                 >
@@ -82,7 +83,7 @@ export default function CoursePage() {
                             <Link href={`/course/${item.replaceAll(/[^a-zA-Z0-9]/g, "-")}`}>
                                 <li
                                     key={index}
-                                    className="py-[10px] px-[15px] cursor-pointer hover:bg-red-600 hover:text-white duration-300"
+                                    className="py-[10px] px-[15px] cursor-pointer hover:bg-gray-600 hover:text-white duration-300"
                                 >
                                     {item}
                                 </li>
@@ -107,14 +108,14 @@ export default function CoursePage() {
           </div>
           <div className="w-full max-w-4xl mx-auto px-4">
             {/* Heading */}
-            <h3 className="text-3xl capitalize sm:text-[25px] font-bold text-red-700 mb-2">
+            <h3 className="text-3xl capitalize sm:text-[25px] font-bold text-gray-700 mb-2">
               {slug}
             </h3>
 
             {/* Description */}
             <p className="text-gray-800 text-[18px] lg:text-start text-justify sm:tracking-normal tracking-tighter leading-[30px] mb-6">
               NIFT course is an online program designed to enhance students&#39;
-              abilities in fashion and design. This structured curriculum
+              abilities in fashion and design. This structugray curriculum
               includes daily recorded lectures, live mentorship, and mock tests
               to ensure deep conceptual clarity and competitive edge.
             </p>
@@ -137,7 +138,7 @@ export default function CoursePage() {
               ].map((item, i) => (
                 <li
                   key={i}
-                  className="flex items-center gap-2 bg-red-600 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300"
+                  className="flex items-center gap-2 bg-gray-600 text-white px-4 py-3 rounded-lg shadow-sm text-[16px] hover:scale-[1.03] transition duration-300"
                 >
                   {item.icon}
                   {item.text}
@@ -146,55 +147,28 @@ export default function CoursePage() {
             </ul>
 
             {/* Price */}
-            <span className="text-[45px]  font-extrabold text-red-700 block mb-6">
+            <span className="text-[45px]  font-extrabold text-gray-700 block mb-6">
               ₹ 1399/-
             </span>
 
             {/* Buttons */}
-            <div className="grid sm:grid-cols-2 gap-4">
-              <button className="flex items-center justify-center gap-2 bg-gray-300 text-red-700 hover:bg-red-600 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium">
+            <div className="grid sm:grid-cols-3 gap-4">
+              <button className="flex items-center justify-center gap-2 bg-gray-300 text-gray-700 hover:bg-gray-600 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-medium">
                 <FaVideo />
                 Watch Demo
               </button>
-              <button className="border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-semibold">
+              <button className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white transition duration-300 py-3 rounded-md text-[20px] font-semibold">
                 Buy Now
               </button>
             </div>
           </div>
         </div>
-        {/* <div className="w-full">
-                    {faqs.map((item, index) => {
-                        return (
-                            <div className="my-[15px]">
-                                <h3
-                                    onClick={() => setCurrentFaq(item.id)}
-                                    className="py-[15px] text-[20px] bg-gray-300 px-[15px] rounded-[10px] cursor-pointer flex justify-between items-center"
-                                >
-                                    Which things I learn in this course ?
-                                    <FaPlusCircle />
-                                </h3>
-                                <div
-                                    className={`overflow-hidden transition-[max-height] duration-300 ease-in-out bg-gray-300 rounded-b-[10px] px-3 ${item.id === currentFaq ? "max-h-[500px] py-3" : "max-h-0 py-0"}`}
-                                >
-                                    in this course you will learn online trading and some extra
-                                    knowledge of behind it that how things are works in this
-                                    field. in this course you will learn online trading and some
-                                    extra knowledge of behind it that how things are works in this
-                                    field. in this course you will learn online trading and some
-                                    extra knowledge of behind it that how things are works in this
-                                    field. in this course you will learn online trading and some
-                                    extra knowledge of behind it that how things are works in this
-                                    field.
-                                </div>
-                            </div>
-                        );
-                    })}
-                </div> */}
+
 
         <div className="w-full lg:p-3 lg:my-[60px] my-[30px] bg-[#f8f8f8]  text-white rounded-[10px]">
           <div className="max-w-7xl mx-auto py-[30px] p-5 rounded-[10px]  text-white">
             <div className="">
-              <h4 className="font-semibold mb-5 tracking-tight text-3xl text-black">
+              <h4 className="font-semibold mb-5 tracking-tight text-3xl text-gray-900">
                 Frequently Asked Questions
               </h4>
 
@@ -207,7 +181,7 @@ export default function CoursePage() {
                         currentFaqId === item.id && setCurrentFaqId(0);
                       }}
                       className={`${item.id === currentFaqId ? "" : ""
-                        } w-[100%] lg:text-[20px] text-[16px] hover:text-red-600 text-black py-[18px]  duration-200 cursor-pointer border-b-[1px] border-[#b1b1b1] mt-[0px] grid gap-1 grid-cols-[95%_auto] items-center `}
+                        } w-[100%] lg:text-[20px] text-[16px] hover:text-gray-900 text-gray-600 py-[18px]  duration-200 cursor-pointer border-b-[1px] border-[#b1b1b1] mt-[0px] grid gap-1 grid-cols-[95%_auto] items-center `}
                     >
                       {item.question}
                       {item.id === currentFaqId ? (
@@ -220,7 +194,7 @@ export default function CoursePage() {
                       className={`${currentFaqId === item.id
                         ? "h-auto opacity-[1]"
                         : "h-0 scale-0 opacity-0"
-                        } text-black rounded-b-lg my-[10px]  text-[18px] left-0  w-[100%]  `}
+                        } text-gray-900 rounded-b-lg my-[10px]  text-[18px] left-0  w-[100%]  `}
                     >
                       {item.answer}
                     </div>

@@ -483,7 +483,7 @@ function BookaSession() {
                 className: "max-w-[1320px] bg-black  items-center overflow-hidden bg-cover rounded-[10px] relative bg-center grid lg:grid-cols-[60%_auto] grid-cols-1 mx-auto",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"
+                        className: "absolute w-[100%] h-[100%] bg-gradient-to-r from-black/70 via-black/40 to-black/80"
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
                         lineNumber: 58,
@@ -626,7 +626,7 @@ function BookaSession() {
                                         id: "name",
                                         type: "text",
                                         placeholder: "John Doe",
-                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white",
+                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white",
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
@@ -654,7 +654,7 @@ function BookaSession() {
                                         id: "email",
                                         type: "email",
                                         placeholder: "john@example.com",
-                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white",
+                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white",
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
@@ -682,7 +682,7 @@ function BookaSession() {
                                         id: "phone",
                                         type: "tel",
                                         placeholder: "+91 98765 43210",
-                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white",
+                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white",
                                         required: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
@@ -708,7 +708,7 @@ function BookaSession() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                         id: "exam",
-                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 bg-white text-black  focus:outline-none focus:ring-2 focus:ring-red-500",
+                                        className: "w-full border border-gray-300 rounded-lg px-4 py-3 bg-white text-black  focus:outline-none focus:ring-[1px] focus:ring-white",
                                         required: true,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -770,7 +770,7 @@ function BookaSession() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 type: "submit",
-                                className: "w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 uppercase",
+                                className: "w-full hover:bg-white hover:text-black bg-gray-900 text-white font-semibold py-3 px-6 cursor-pointer rounded-lg transition duration-300 uppercase",
                                 children: "Book My Session"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",

@@ -25,11 +25,11 @@ export default function MegaMenu({ MegaMenuOpen, setMegaMenuOpen }) {
             <div className="grid grid-cols-[30%_auto] gap-5">
                 <div className="border-0">
                     <ul>
-                        <li onClick={() => setActiveTab("onlineCourse")} className="menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4">Online Course</li>
-                        <li onClick={() => setActiveTab("offlineCourse")} className="menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4">Offline Course</li>
-                        <li onClick={() => setActiveTab("studyMaterial")} className="menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4">Study Material</li>
-                        <li onClick={() => setActiveTab("testSeries")} className="menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4">Test Series</li>
-                        <li onClick={() => setActiveTab("freeRes")} className="menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4">Free Resources</li>
+                        <li onClick={() => setActiveTab("onlineCourse")} className={`menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent`}>Online Course</li>
+                        <li onClick={() => setActiveTab("offlineCourse")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Offline Course</li>
+                        <li onClick={() => setActiveTab("studyMaterial")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Study Material</li>
+                        <li onClick={() => setActiveTab("testSeries")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Test Series</li>
+                        <li onClick={() => setActiveTab("freeRes")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Free Resources</li>
                     </ul>
                 </div>
                 <div className="h-[65vh] scrollbar overflow-y-scroll">

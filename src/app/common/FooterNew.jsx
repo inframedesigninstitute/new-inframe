@@ -8,49 +8,16 @@ import { FaDownload } from "react-icons/fa";
 
 export default function FooterNew() {
     let topColleges = ['top College of Architecture', 'top College of Design', 'top College of Fine Art', 'top College of Fashion Design']
-    // let topColleges = [
-    //     {
-    //         category: 'top College of Architecture ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Design ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Fine Art ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Fashion Design ',
-    //         data: {
-    //             name: 'Webmind Softech',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    // ]
+
     return (
         <>
             <div className="w-full lg:mt-[60px] mt-[30px]  bg-[#f8f8f8] text-black lg:px-6 px-3">
                 <div className="max-w-[1320px] mx-auto py-[30px] ">
-                    <h2 className="text-[27px] text-black font-semibold capitalize mb-5 pb-1">Courses We Provide</h2>
+                    <h2 className="text-[30px] text-black font-bold capitalize mb-5 pb-1">Courses We Provide</h2>
                     <div className="grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-10">
                         {megaMenuData.map((item, index) => (
                             <ul key={index}>
-                                <li className="capitalize text-[20px] tracking-widest mb-3 font-extrabold">{item.parentCategory}</li>
+                                <li className="capitalize text-[20px] mb-3 font-semibold">{item.parentCategory}</li>
                                 {item.subCategory.map((subCat) =>
                                     subCat.subSubCategory.map((subSubCat) =>
                                         subSubCat.courses.map((course, courseIndex) => (
@@ -71,7 +38,7 @@ export default function FooterNew() {
                         <div className="text-white  pr-5 h-[100%] border-white">
                             <h2 className="text-[24px] mb-4 font-semibold capitalize ">Quick Links</h2>
                             <ul>
-                                <Link href={'/download'}><li className="mb-[10px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaRegNewspaper  className="text-[22px]" /> Adminssion Process  </li></Link>
+                                <Link href={'/download'}><li className="mb-[10px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaRegNewspaper className="text-[22px]" /> Adminssion Process  </li></Link>
                                 <Link href={'/download'}><li className="mb-[10px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaDownload className="text-[22px]" /> Download  </li></Link>
                                 <Link href={'/our-blogs'}><li className="mb-[10px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><RiFilePaper2Fill className="text-[22px]" />Our  Blogs</li></Link>
                                 {topColleges.map((item, index) => {

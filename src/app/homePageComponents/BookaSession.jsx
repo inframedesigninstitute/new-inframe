@@ -55,7 +55,7 @@ export default function BookaSession() {
 
       <div className="lg:mx-6 mx-3">
         <div style={{ backgroundImage: 'url("/bookSession.jpg")' }} className="max-w-[1320px] bg-black  items-center overflow-hidden bg-cover rounded-[10px] relative bg-center grid lg:grid-cols-[60%_auto] grid-cols-1 mx-auto">
-          <div className="absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"></div>
+          <div className="absolute w-[100%] h-[100%] bg-gradient-to-r from-black/70 via-black/40 to-black/80"></div>
           {/* Left Section */}
           <div ref={leftRef} className="p-8 lg:p-12 bg-no-repeat bg-cover flex flex-col  space-y-6  relative z-40">
             <div className="flex items-center gap-3 text-white">
@@ -113,7 +113,7 @@ export default function BookaSession() {
                 id="name"
                 type="text"
                 placeholder="John Doe"
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white"
                 required
               />
             </div>
@@ -126,7 +126,7 @@ export default function BookaSession() {
                 id="email"
                 type="email"
                 placeholder="john@example.com"
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white"
                 required
               />
             </div>
@@ -139,7 +139,7 @@ export default function BookaSession() {
                 id="phone"
                 type="tel"
                 placeholder="+91 98765 43210"
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500 text-white"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-[1px] focus:ring-white text-white"
                 required
               />
             </div>
@@ -150,7 +150,7 @@ export default function BookaSession() {
               </label>
               <select
                 id="exam"
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-white text-black  focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 bg-white text-black  focus:outline-none focus:ring-[1px] focus:ring-white"
                 required
               >
                 <option l value="">-- Select Exam Type --</option>
@@ -163,7 +163,7 @@ export default function BookaSession() {
 
             <button
               type="submit"
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 uppercase"
+              className="w-full hover:bg-white hover:text-black bg-gray-900 text-white font-semibold py-3 px-6 cursor-pointer rounded-lg transition duration-300 uppercase"
             >
               Book My Session
             </button>

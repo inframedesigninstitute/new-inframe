@@ -44,7 +44,7 @@ export default function Header() {
               src="/logo.jpg"
               alt=""
             />
-            <button onClick={() => setMegaMenuOpen(!MegaMenuOpen)} className={`${MegaMenuOpen ? 'bg-red-600 text-white' : 'bg-white'} flex items-center  gap-2 border-[2px] border-red-600 rounded-[10px] px-[15px] py-[8px] text-red-600    cursor-pointer  font-semibold duration-300 hover:bg-red-600 hover:text-white hover:border-transparent`}>
+            <button onClick={() => setMegaMenuOpen(!MegaMenuOpen)} className={`${MegaMenuOpen ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'} flex items-center  gap-2 border-[2px] border-gray-900 rounded-[10px] px-[15px] py-[8px] text-gray-900    cursor-pointer  font-semibold duration-300 hover:bg-gray-900 hover:text-white hover:border-transparent`}>
               All Courses <FaAngleDown className={`${MegaMenuOpen ? 'rotate-180' : 'rotate-0'} duration-200`} />
               <MegaMenu MegaMenuOpen={MegaMenuOpen} setMegaMenuOpen={setMegaMenuOpen} />
 
@@ -58,14 +58,14 @@ export default function Header() {
               {megaMenuData.map((items, index) => {
                 const { subCategory } = items
                 return (
-                  <li key={index} className="text-[16px] font-semibold hover:bg-red-50 px-[10px] py-[35px] duration-300 cursor-pointer capitalize text-gray-500 group">
+                  <li key={index} className="text-[16px] font-semibold hover:bg-gray-100 px-[10px] py-[35px] duration-300 cursor-pointer capitalize text-gray-500 group">
                     {items.parentCategory}
                     <div className="invisible opacity-0 group-hover:opacity-100 origin-top transition-all brightness-110  duration-300 ease-in-out group-hover:visible absolute top-[100%] left-1/2 -translate-x-1/2 w-[1100px] h-auto bg-white shadow-2xl border-[1px] border-gray-300 grid grid-cols-4 gap-4 p-5 rounded-b-[35px]">
                       {subCategory.map((subCat, ind) => {
                         const { subSubCategory } = subCat
                         return (
                           <ul key={ind}>
-                            <li className="text-[20px] capitalize text-red-600  mb-2">
+                            <li className="text-[20px] capitalize text-gray-900  mb-2">
                               {subCat.name}
                             </li>
                             <ul>
@@ -76,7 +76,7 @@ export default function Header() {
                                     <li className="text-[18px] capitalize my-4 ml-2 text-gray-700 flex items-center  gap-1"><VscTriangleRight /> {subSubCat.name}</li>
                                     {courses.map((course, indexs) => {
                                       return (
-                                        <Link href={`/course/${course.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`}><li key={indexs} className="ml-8 my-[10px] text-gray-600 hover:text-red-600 duration-300">{course}</li></Link>
+                                        <Link href={`/course/${course.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`}><li key={indexs} className="ml-8 my-[10px] text-gray-600 hover:text-gray-900 duration-300">{course}</li></Link>
                                       )
                                     })}
                                   </ul>
@@ -98,7 +98,7 @@ export default function Header() {
                 setActivePage("login")
                 setMegaMenuOpen(false)
               }}
-              className="bg-red-800  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-red-900 py-[10px] text-white  text-[16px]"
+              className="bg-gray-950 text-white  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-white border-[2] border-black hover:text-gray-900 font-semibold py-[10px] text-[16px] "
             >
               Login / Register
             </button>
@@ -127,7 +127,7 @@ export default function Header() {
               setActivePage("login")
               setMegaMenuOpen(false)
             }}
-            className="bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[8px] text-white text-[16px]"
+            className="bg-gray-900 hover:bg-gray-800 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[8px] text-white text-[16px]"
           >
             Login
           </button>
@@ -174,7 +174,7 @@ export default function Header() {
                 setMobileMenu(false);
                 setMegaMenuOpen(false)
               }}
-              className="w-full bg-red-800 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]"
+              className="w-full bg-gray-900 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]"
             >
               Login / Register
             </button>
@@ -184,7 +184,7 @@ export default function Header() {
       <div
         onClick={() => setcontactModel(!contactModel)}
         className={`${contactModel ? "" : ""
-          } fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] hover:bg-gray-900 bg-red-600 text-white rounded-full lg:p-4 p-3 transition-all ease-initial duration-400`}
+          } fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] hover:bg-white bg-gray-900 text-white hover:text-gray-900 rounded-full lg:p-4 p-3 transition-all ease-initial duration-400 shadow-2xl`}
       >
         {contactModel ? <IoMdClose /> : <FaPhoneAlt />}
 
@@ -199,7 +199,7 @@ export default function Header() {
           <p className="my-[5px] text-[14px] text-gray-700 text-start">
             Have doubts? Our support team will be happy to assist you !
           </p>
-          <button className="w-[100%] py-[10px] border-[2px] text-[18px] border-red-600 font-semibold mt-3 text-red-600 rounded-[10px] cursor-pointer">
+          <button className="w-[100%] py-[10px] border-[2px] text-[18px] border-gray-900 font-semibold mt-3 text-gray-900 rounded-[10px] cursor-pointer">
             +91 807531251
           </button>
         </div>

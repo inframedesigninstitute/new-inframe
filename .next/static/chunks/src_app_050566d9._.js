@@ -52,40 +52,40 @@ function LoginForm(param) {
         //   text: "You are now login",
         //   icon: "success",
         //   background: "white",
-        //   iconColor: "red",
-        //   confirmButtonColor: "red",
+        //   iconColor: "gray",
+        //   confirmButtonColor: "gray",
         // });
         // Swal.fire({
         //   title: "OTP Sent",
         //   text: "Check your email Id to Verify",
         //   icon: "success",
         //   background: "white",
-        //   iconColor: "red",
-        //   confirmButtonColor: "red",
+        //   iconColor: "gray",
+        //   confirmButtonColor: "gray",
         // });
         // Swal.fire({
         //     title : 'OTP Verified',
         //     icon : 'success',
         //     background : 'white',
-        //     iconColor : 'red',
-        //     confirmButtonColor : 'red'
+        //     iconColor : 'gray',
+        //     confirmButtonColor : 'gray'
         // })
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$sweetalert2$2f$dist$2f$sweetalert2$2e$all$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].fire({
             title: "OTP Is Invalid",
             icon: "error",
-            iconColor: "red",
+            iconColor: "gray",
             background: "white",
-            confirmButtonColor: "red"
+            confirmButtonColor: "gray"
         });
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "fixed lg:w-[350px] w-[320px] h-[auto] z-[1000] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-[10px] shadow-md shadow-red-600",
+        className: "fixed lg:w-[350px] w-[320px] h-[auto] z-[1000] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-[10px] shadow-md shadow-gray-600",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex justify-between items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-[25px] text-gray-900 my-4 uppercase",
+                        className: "text-[30px] font-semibold text-gray-900 my-4 capitalize",
                         children: "Login"
                     }, void 0, false, {
                         fileName: "[project]/src/app/common/UserControl.jsx",
@@ -94,7 +94,7 @@ function LoginForm(param) {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         onClick: ()=>setActivePage(""),
-                        className: "text-[25px] hover:text-red-600 duration-300 cursor-pointer",
+                        className: "text-[25px] text-gray-500 hover:text-gray-900 duration-300 cursor-pointer",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi2$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HiMiniArrowRightStartOnRectangle"], {}, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
                             lineNumber: 62,
@@ -116,8 +116,8 @@ function LoginForm(param) {
                 className: "my-[15px] space-y-5",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                        required: true,
-                        className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                        requigray: true,
+                        className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                         placeholder: "Enter Your Email",
                         type: "text"
                     }, void 0, false, {
@@ -126,8 +126,8 @@ function LoginForm(param) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                        required: true,
-                        className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                        requigray: true,
+                        className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                         placeholder: "Enter Your Password",
                         type: "text"
                     }, void 0, false, {
@@ -136,7 +136,7 @@ function LoginForm(param) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] ",
+                        className: "w-full hover:bg-white hover:text-black hover:border-gray-900 border-[2px] border-transparent bg-gray-900 duration-300 cursor-pointer text-white rounded-[15px] capitalize font-semibold py-[10px] ",
                         children: "Login"
                     }, void 0, false, {
                         fileName: "[project]/src/app/common/UserControl.jsx",
@@ -150,7 +150,7 @@ function LoginForm(param) {
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 onClick: ()=>setActivePage("register"),
-                                className: "text-red-600   hover:underline cursor-pointer",
+                                className: "text-gray-600   hover:underline cursor-pointer",
                                 children: "Sign Up"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/UserControl.jsx",
@@ -181,13 +181,13 @@ function Register(param) {
     let { activePage, setActivePage } = param;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "fixed lg:w-[420px] w-[320px] h-[auto] z-[1000] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-[10px] shadow-md shadow-red-600",
+            className: "fixed lg:w-[400px] w-[320px] h-[auto] z-[1000] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-5 rounded-[10px] shadow-md shadow-gray-600",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex justify-between items-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                            className: "text-[25px] text-gray-900 my-4 uppercase ",
+                            className: "text-[25px] text-gray-900 my-4 capitalize  font-semibold",
                             children: "Register"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
@@ -196,15 +196,15 @@ function Register(param) {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             onClick: ()=>setActivePage(""),
-                            className: "text-[25px] hover:text-red-600 duration-300 cursor-pointer",
+                            className: "text-[25px] hover:text-gray-600 duration-300 cursor-pointer",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$hi2$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["HiMiniArrowRightStartOnRectangle"], {}, void 0, false, {
                                 fileName: "[project]/src/app/common/UserControl.jsx",
-                                lineNumber: 106,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 102,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this)
                     ]
@@ -217,41 +217,41 @@ function Register(param) {
                     className: "my-[15px] space-y-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                            required: true,
-                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                            requigray: true,
+                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                             placeholder: "Enter Your Name",
                             type: "text"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 110,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                            required: true,
-                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                            requigray: true,
+                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                             placeholder: "Enter Your Email",
                             type: "email"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 116,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                            required: true,
-                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                            requigray: true,
+                            className: "border border-gray-300 w-full rounded-[15px] px-[8px] py-[12px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                             placeholder: "Create a Password",
                             type: "password"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 122,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: "w-full bg-red-800 hover:bg-red-900 duration-300 cursor-pointer text-white rounded-[15px] uppercase py-[12px] focus:outline-none focus:ring-2 focus:ring-red-500 transition",
+                            className: "w-full bg-gray-900 hover:bg-transparent hover:text-gray-900 border-2 border-transparent hover:border-gray-900 duration-300 cursor-pointer text-white font-semibold rounded-[15px] capitalize py-[10px] focus:outline-none focus:ring-2 focus:ring-gray-500 transition",
                             children: "Request OTP"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 128,
+                            lineNumber: 130,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -261,23 +261,23 @@ function Register(param) {
                                 " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     onClick: ()=>setActivePage("login"),
-                                    className: "text-red-600   hover:underline cursor-pointer",
+                                    className: "text-gray-600   hover:underline cursor-pointer",
                                     children: "Sign In"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/common/UserControl.jsx",
-                                    lineNumber: 133,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/common/UserControl.jsx",
-                            lineNumber: 131,
+                            lineNumber: 133,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/common/UserControl.jsx",
-                    lineNumber: 109,
+                    lineNumber: 111,
                     columnNumber: 9
                 }, this)
             ]
@@ -729,7 +729,7 @@ function MegaMenu(param) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 onClick: ()=>setActiveTab("onlineCourse"),
-                                className: "menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4",
+                                className: "menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent",
                                 children: "Online Course"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/MegaMenu.jsx",
@@ -738,7 +738,7 @@ function MegaMenu(param) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 onClick: ()=>setActiveTab("offlineCourse"),
-                                className: "menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4",
+                                className: "menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent",
                                 children: "Offline Course"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/MegaMenu.jsx",
@@ -747,7 +747,7 @@ function MegaMenu(param) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 onClick: ()=>setActiveTab("studyMaterial"),
-                                className: "menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4",
+                                className: "menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent",
                                 children: "Study Material"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/MegaMenu.jsx",
@@ -756,7 +756,7 @@ function MegaMenu(param) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 onClick: ()=>setActiveTab("testSeries"),
-                                className: "menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4",
+                                className: "menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent",
                                 children: "Test Series"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/MegaMenu.jsx",
@@ -765,7 +765,7 @@ function MegaMenu(param) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                 onClick: ()=>setActiveTab("freeRes"),
-                                className: "menu-tab w-full hover:bg-white 300 duration-300 rounded-[10px] text-[17px] text-start px-2 py-4",
+                                className: "menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent",
                                 children: "Free Resources"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/MegaMenu.jsx",
@@ -893,7 +893,7 @@ function Header() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: ()=>setMegaMenuOpen(!MegaMenuOpen),
-                                    className: "".concat(MegaMenuOpen ? 'bg-red-600 text-white' : 'bg-white', " flex items-center  gap-2 border-[2px] border-red-600 rounded-[10px] px-[15px] py-[8px] text-red-600    cursor-pointer  font-semibold duration-300 hover:bg-red-600 hover:text-white hover:border-transparent"),
+                                    className: "".concat(MegaMenuOpen ? 'bg-gray-900 text-white' : 'bg-white text-gray-900', " flex items-center  gap-2 border-[2px] border-gray-900 rounded-[10px] px-[15px] py-[8px] text-gray-900    cursor-pointer  font-semibold duration-300 hover:bg-gray-900 hover:text-white hover:border-transparent"),
                                     children: [
                                         "All Courses ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaAngleDown"], {
@@ -938,7 +938,7 @@ function Header() {
                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ApiData$2f$categoryApi$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["megaMenuData"].map((items, index)=>{
                                         const { subCategory } = items;
                                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "text-[16px] font-semibold hover:bg-red-50 px-[10px] py-[35px] duration-300 cursor-pointer capitalize text-gray-500 group",
+                                            className: "text-[16px] font-semibold hover:bg-gray-100 px-[10px] py-[35px] duration-300 cursor-pointer capitalize text-gray-500 group",
                                             children: [
                                                 items.parentCategory,
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -948,7 +948,7 @@ function Header() {
                                                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                    className: "text-[20px] capitalize text-red-600  mb-2",
+                                                                    className: "text-[20px] capitalize text-gray-900  mb-2",
                                                                     children: subCat.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/common/Header.jsx",
@@ -980,7 +980,7 @@ function Header() {
                                                                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                                         href: "/course/".concat(course.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")),
                                                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                                                            className: "ml-8 my-[10px] text-gray-600 hover:text-red-600 duration-300",
+                                                                                            className: "ml-8 my-[10px] text-gray-600 hover:text-gray-900 duration-300",
                                                                                             children: course
                                                                                         }, indexs, false, {
                                                                                             fileName: "[project]/src/app/common/Header.jsx",
@@ -1034,7 +1034,7 @@ function Header() {
                                         setActivePage("login");
                                         setMegaMenuOpen(false);
                                     },
-                                    className: "bg-red-800  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-red-900 py-[10px] text-white  text-[16px]",
+                                    className: "bg-gray-950 text-white  duration-300 cursor-pointer px-[25px] rounded-[10px] hover:bg-white border-[2] border-black hover:text-gray-900 font-semibold py-[10px] text-[16px] ",
                                     children: "Login / Register"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/common/Header.jsx",
@@ -1100,7 +1100,7 @@ function Header() {
                                     setActivePage("login");
                                     setMegaMenuOpen(false);
                                 },
-                                className: "bg-red-800 hover:bg-red-900 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[8px] text-white text-[16px]",
+                                className: "bg-gray-900 hover:bg-gray-800 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[8px] text-white text-[16px]",
                                 children: "Login"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/Header.jsx",
@@ -1211,7 +1211,7 @@ function Header() {
                                             setMobileMenu(false);
                                             setMegaMenuOpen(false);
                                         },
-                                        className: "w-full bg-red-800 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]",
+                                        className: "w-full bg-gray-900 hover:bg-gray-900 duration-300 text-white rounded-[10px] py-[10px] text-[22px]",
                                         children: "Login / Register"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/Header.jsx",
@@ -1238,7 +1238,7 @@ function Header() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 onClick: ()=>setcontactModel(!contactModel),
-                className: "".concat(contactModel ? "" : "", " fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] hover:bg-gray-900 bg-red-600 text-white rounded-full lg:p-4 p-3 transition-all ease-initial duration-400"),
+                className: "".concat(contactModel ? "" : "", " fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] hover:bg-white bg-gray-900 text-white hover:text-gray-900 rounded-full lg:p-4 p-3 transition-all ease-initial duration-400 shadow-2xl"),
                 children: [
                     contactModel ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["IoMdClose"], {}, void 0, false, {
                         fileName: "[project]/src/app/common/Header.jsx",
@@ -1279,7 +1279,7 @@ function Header() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "w-[100%] py-[10px] border-[2px] text-[18px] border-red-600 font-semibold mt-3 text-red-600 rounded-[10px] cursor-pointer",
+                                className: "w-[100%] py-[10px] border-[2px] text-[18px] border-gray-900 font-semibold mt-3 text-gray-900 rounded-[10px] cursor-pointer",
                                 children: "+91 807531251"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/Header.jsx",
@@ -1340,40 +1340,6 @@ function FooterNew() {
         'top College of Fine Art',
         'top College of Fashion Design'
     ];
-    // let topColleges = [
-    //     {
-    //         category: 'top College of Architecture ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Design ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Fine Art ',
-    //         data: {
-    //             name: 'Aish College',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    //     {
-    //         category: 'top College of Fashion Design ',
-    //         data: {
-    //             name: 'Webmind Softech',
-    //             src: 'https://www.webmindsoftech.com/wp-content/uploads/2024/01/Best-Fashion-Designing-Institutes-and-Colleges-in-Jaipur-1001x660.jpeg',
-    //             description: ''
-    //         }
-    //     },
-    // ]
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1382,11 +1348,11 @@ function FooterNew() {
                     className: "max-w-[1320px] mx-auto py-[30px] ",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-[27px] text-black font-semibold capitalize mb-5 pb-1",
+                            className: "text-[30px] text-black font-bold capitalize mb-5 pb-1",
                             children: "Courses We Provide"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                            lineNumber: 49,
+                            lineNumber: 16,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1394,11 +1360,11 @@ function FooterNew() {
                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$ApiData$2f$categoryApi$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["megaMenuData"].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                            className: "capitalize text-[20px] tracking-widest mb-3 font-extrabold",
+                                            className: "capitalize text-[20px] mb-3 font-semibold",
                                             children: item.parentCategory
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                                            lineNumber: 53,
+                                            lineNumber: 20,
                                             columnNumber: 33
                                         }, this),
                                         item.subCategory.map((subCat)=>subCat.subSubCategory.map((subSubCat)=>subSubCat.courses.map((course, courseIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1410,35 +1376,35 @@ function FooterNew() {
                                                                 children: course
                                                             }, courseIndex, false, {
                                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                                lineNumber: 57,
+                                                                lineNumber: 24,
                                                                 columnNumber: 127
                                                             }, this)
                                                         ]
                                                     }, courseIndex, true, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 57,
+                                                        lineNumber: 24,
                                                         columnNumber: 45
                                                     }, this))))
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                    lineNumber: 52,
+                                    lineNumber: 19,
                                     columnNumber: 29
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                            lineNumber: 50,
+                            lineNumber: 17,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                    lineNumber: 48,
+                    lineNumber: 15,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 47,
+                lineNumber: 14,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1456,7 +1422,7 @@ function FooterNew() {
                                         children: "Quick Links"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 72,
+                                        lineNumber: 39,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1470,19 +1436,19 @@ function FooterNew() {
                                                             className: "text-[22px]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                            lineNumber: 74,
+                                                            lineNumber: 41,
                                                             columnNumber: 168
                                                         }, this),
                                                         " Adminssion Process  "
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 41,
                                                     columnNumber: 58
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 74,
+                                                lineNumber: 41,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1494,19 +1460,19 @@ function FooterNew() {
                                                             className: "text-[22px]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                            lineNumber: 75,
+                                                            lineNumber: 42,
                                                             columnNumber: 168
                                                         }, this),
                                                         " Download  "
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 42,
                                                     columnNumber: 58
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 75,
+                                                lineNumber: 42,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1518,19 +1484,19 @@ function FooterNew() {
                                                             className: "text-[22px]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 43,
                                                             columnNumber: 169
                                                         }, this),
                                                         "Our  Blogs"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 43,
                                                     columnNumber: 59
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 76,
+                                                lineNumber: 43,
                                                 columnNumber: 33
                                             }, this),
                                             topColleges.map((item, index)=>{
@@ -1543,7 +1509,7 @@ function FooterNew() {
                                                                 className: "text-[25px]"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                                lineNumber: 79,
+                                                                lineNumber: 46,
                                                                 columnNumber: 244
                                                             }, this),
                                                             " ",
@@ -1551,25 +1517,25 @@ function FooterNew() {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 46,
                                                         columnNumber: 123
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 46,
                                                     columnNumber: 41
                                                 }, this);
                                             })
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 73,
+                                        lineNumber: 40,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 71,
+                                lineNumber: 38,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1580,7 +1546,7 @@ function FooterNew() {
                                         children: "About Us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 85,
+                                        lineNumber: 52,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1588,13 +1554,13 @@ function FooterNew() {
                                         children: "InFrame Design Institute (IDI), established in 2013, is a premier design education center located in Jodhpur, Rajasthan. Founded by a group of artists, IDI offers comprehensive coaching for various design entrance examinations, including NIFT, NID, and UCEED."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 86,
+                                        lineNumber: 53,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 84,
+                                lineNumber: 51,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1605,7 +1571,7 @@ function FooterNew() {
                                         children: "Connect with us"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 96,
+                                        lineNumber: 63,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1613,7 +1579,7 @@ function FooterNew() {
                                         src: "http://localhost:3000/_next/image?url=%2FQrCode.avif&w=256&q=75"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 65,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1628,13 +1594,13 @@ function FooterNew() {
                                                         children: "+91 9649964937"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 67,
                                                         columnNumber: 81
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 100,
+                                                lineNumber: 67,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1646,25 +1612,25 @@ function FooterNew() {
                                                         children: "info@inframedesigninstitute.com"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 68,
                                                         columnNumber: 73
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 101,
+                                                lineNumber: 68,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 99,
+                                        lineNumber: 66,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 95,
+                                lineNumber: 62,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1675,7 +1641,7 @@ function FooterNew() {
                                         children: "Social Channels"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 108,
+                                        lineNumber: 75,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1685,41 +1651,41 @@ function FooterNew() {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 110,
+                                                lineNumber: 77,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaFacebookSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 111,
+                                                lineNumber: 78,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$ri$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["RiInstagramFill"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 112,
+                                                lineNumber: 79,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaTwitterSquare"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 113,
+                                                lineNumber: 80,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {
                                                 className: "hover:text-gray-400 duration-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 114,
+                                                lineNumber: 81,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 109,
+                                        lineNumber: 76,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1727,7 +1693,7 @@ function FooterNew() {
                                         children: "Get the app for better experience"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 118,
+                                        lineNumber: 85,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1739,7 +1705,7 @@ function FooterNew() {
                                                 alt: "Get it on Google Play"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 122,
+                                                lineNumber: 89,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1748,35 +1714,35 @@ function FooterNew() {
                                                 alt: "Download on the App Store"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                                lineNumber: 127,
+                                                lineNumber: 94,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                                        lineNumber: 121,
+                                        lineNumber: 88,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 106,
+                                lineNumber: 73,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 70,
+                        lineNumber: 37,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/common/FooterNew.jsx",
-                    lineNumber: 69,
+                    lineNumber: 36,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 68,
+                lineNumber: 35,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1787,7 +1753,7 @@ function FooterNew() {
                         children: "© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved"
                     }, void 0, false, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 139,
+                        lineNumber: 106,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1798,7 +1764,7 @@ function FooterNew() {
                                 children: "Terms and condition"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 141,
+                                lineNumber: 108,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1806,7 +1772,7 @@ function FooterNew() {
                                 children: "Privacy Policy"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 142,
+                                lineNumber: 109,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1814,7 +1780,7 @@ function FooterNew() {
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 143,
+                                lineNumber: 110,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1822,19 +1788,19 @@ function FooterNew() {
                                 children: "About Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                                lineNumber: 144,
+                                lineNumber: 111,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/common/FooterNew.jsx",
-                        lineNumber: 140,
+                        lineNumber: 107,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/common/FooterNew.jsx",
-                lineNumber: 138,
+                lineNumber: 105,
                 columnNumber: 13
             }, this)
         ]
