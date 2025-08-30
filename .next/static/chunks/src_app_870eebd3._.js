@@ -980,7 +980,7 @@ function TopCourses() {
             className: "max-w-[1320px] mx-auto",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    className: "px-6 lg:text-[40px] text-[25px] text-start font-bold  text-black pt-5 ",
+                    className: "px-6 lg:text-[40px] text-[30px] text-start font-bold  text-black lg:pb-5  ",
                     children: "Top Selling Course"
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
@@ -1025,13 +1025,30 @@ function OnlineCourses() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 1500,
+        pauseOnHover: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
-    let onlineCourses = [
+    let CoursesData = [
         {
             title: "Interior Design Course",
             description: "Master the art of interior design by learning how to create cohesive room themes, apply color theory, and develop skills to elevate your design perspective.",
@@ -1049,65 +1066,60 @@ function OnlineCourses() {
             description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
             image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "799"
+        },
+        {
+            title: "Digital Marketing Course",
+            description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
+            price: "799"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] py-3 mb-5",
-                children: [
-                    "Online ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-gray-900",
-                        children: " Best Selling "
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 64,
-                        columnNumber: 16
-                    }, this),
-                    " Courses"
-                ]
-            }, void 0, true, {
+                className: "text-gray-900 lg:text-start text-center font-normal text-[25px] pt-3 mb-0",
+                children: "Best Selling Online Courses"
+            }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 63,
+                lineNumber: 89,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "sm:hidden",
+                className: "my-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     ...sliderSettings,
-                    children: onlineCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-2",
+                    children: CoursesData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-3",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
+                                className: "rounded-[10px] shadow-sm group overflow-hidden hover:shadow-md transition duration-300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-full h-[250px] object-cover rounded-t-[10px]",
+                                        className: "w-full h-[200px] object-cover rounded-t-[10px] group-hover:scale-[1.01] transition duration-300",
                                         src: item.image,
-                                        alt: ""
+                                        alt: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 71,
+                                        lineNumber: 100,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "p-6",
+                                        className: "p-4 h-[320px]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-[23px] font-semibold mb-2",
+                                                className: "text-[20px] font-semibold mb-2",
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 77,
+                                                lineNumber: 106,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-700",
+                                                className: "text-gray-700 text-[14px] text-justify tracking-tighter",
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 78,
+                                                lineNumber: 107,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1115,7 +1127,7 @@ function OnlineCourses() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 111,
                                                         columnNumber: 21
                                                     }, this),
                                                     " ",
@@ -1124,157 +1136,65 @@ function OnlineCourses() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 79,
+                                                lineNumber: 110,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-4 grid grid-cols-2 gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
+                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[7px] text-[14px] rounded-lg hover:text-white font-medium",
                                                         children: "Add to Cart"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 83,
+                                                        lineNumber: 114,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[7px] text-[14px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 86,
+                                                        lineNumber: 117,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 82,
+                                                lineNumber: 113,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 76,
+                                        lineNumber: 105,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 70,
+                                lineNumber: 99,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                            lineNumber: 69,
+                            lineNumber: 98,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                    lineNumber: 67,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 66,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden sm:grid grid-cols-3 gap-12 my-[10px] ",
-                children: onlineCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                className: "w-full h-[200px] object-cover duration-300  group-hover:scale-[1.1] rounded-t-[10px]",
-                                src: item.image,
-                                alt: ""
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 101,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-[23px] font-semibold mb-2",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 107,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-700",
-                                        children: item.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 108,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[28px] mt-2 font-semibold flex items-center gap-1 text-gray-950",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 110,
-                                                columnNumber: 17
-                                            }, this),
-                                            " ",
-                                            item.price,
-                                            "/-"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 109,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 grid grid-cols-2 gap-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
-                                                children: "Add to Cart"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 113,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
-                                                children: "Buy Now"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 116,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 112,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 106,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 100,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 98,
+                lineNumber: 94,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-        lineNumber: 62,
+        lineNumber: 88,
         columnNumber: 5
     }, this);
 }
@@ -1284,29 +1204,52 @@ function OfflineCourses() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
-    let OfflineCourse = [
+    let CoursesData = [
         {
             title: "Interior Design Course",
             description: "Master the art of interior design by learning how to create cohesive room themes, apply color theory, and develop skills to elevate your design perspective.",
-            image: "https://www.shutterstock.com/image-photo/training-courses-business-concept-stack-260nw-549736798.jpg",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1399"
         },
         {
             title: "Graphic Design Course",
             description: "Learn the fundamentals of visual communication, typography, and branding using tools like Adobe Photoshop and Illustrator to create stunning digital designs.",
-            image: "https://www.shutterstock.com/image-photo/training-courses-business-concept-stack-260nw-549736798.jpg",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1599"
         },
         {
             title: "Digital Marketing Course",
             description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
-            image: "https://www.shutterstock.com/image-photo/training-courses-business-concept-stack-260nw-549736798.jpg",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
+            price: "799"
+        },
+        {
+            title: "Digital Marketing Course",
+            description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "799"
         }
     ];
@@ -1314,59 +1257,48 @@ function OfflineCourses() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] mt-10",
-                children: [
-                    "Offline ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-gray-900",
-                        children: " Best Selling "
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 168,
-                        columnNumber: 17
-                    }, this),
-                    " Courses"
-                ]
-            }, void 0, true, {
+                className: "text-gray-900 lg:text-start text-center font-normal text-[25px] pt-3 mb-0",
+                children: "Best Selling Offline Course"
+            }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 167,
+                lineNumber: 196,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "sm:hidden",
+                className: "my-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     ...sliderSettings,
-                    children: OfflineCourse.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-2",
+                    children: CoursesData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-3",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
+                                className: "rounded-[10px] shadow-sm group overflow-hidden hover:shadow-md transition duration-300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-full h-[250px] object-cover rounded-t-[10px]",
+                                        className: "w-full h-[200px] object-cover rounded-t-[10px] group-hover:scale-[1.01] transition duration-300",
                                         src: item.image,
-                                        alt: ""
+                                        alt: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 175,
+                                        lineNumber: 207,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "p-6",
+                                        className: "p-4 h-[320px] ",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-[23px] font-semibold mb-2",
+                                                className: "text-[20px] font-semibold mb-2",
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 181,
+                                                lineNumber: 213,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-700",
+                                                className: "text-gray-700 text-[14px] text-justify tracking-tighter",
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 182,
+                                                lineNumber: 214,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1374,7 +1306,7 @@ function OfflineCourses() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 218,
                                                         columnNumber: 21
                                                     }, this),
                                                     " ",
@@ -1383,157 +1315,65 @@ function OfflineCourses() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 183,
+                                                lineNumber: 217,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-4 grid grid-cols-2 gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
+                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[7px] text-[14px] rounded-lg hover:text-white font-medium",
                                                         children: "Add to Cart"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 187,
+                                                        lineNumber: 221,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[7px] text-[14px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 190,
+                                                        lineNumber: 224,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 186,
+                                                lineNumber: 220,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 180,
+                                        lineNumber: 212,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 174,
+                                lineNumber: 206,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                            lineNumber: 173,
+                            lineNumber: 205,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                    lineNumber: 171,
+                    lineNumber: 203,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 170,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden sm:grid grid-cols-3 gap-12 my-[40px]",
-                children: OfflineCourse.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                className: "w-full h-[200px] object-cover duration-300  group-hover:scale-[1.1] rounded-t-[10px]",
-                                src: item.image,
-                                alt: ""
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 205,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-[23px] font-semibold mb-2",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 211,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-700",
-                                        children: item.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 212,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[28px] mt-2 font-semibold flex items-center gap-1 text-gray-950",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 214,
-                                                columnNumber: 17
-                                            }, this),
-                                            " ",
-                                            item.price,
-                                            "/-"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 213,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 grid grid-cols-2 gap-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
-                                                children: "Add to Cart"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 217,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
-                                                children: "Buy Now"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 220,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 216,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 210,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 204,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 202,
+                lineNumber: 201,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-        lineNumber: 166,
+        lineNumber: 195,
         columnNumber: 5
     }, this);
 }
@@ -1543,29 +1383,52 @@ function StudyMaterial() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 1500,
+        pauseOnHover: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
-    let studyMaterialCourses = [
+    let CoursesData = [
         {
             title: "Interior Design Course",
             description: "Master the art of interior design by learning how to create cohesive room themes, apply color theory, and develop skills to elevate your design perspective.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFSxQxzOxDu-OvGxtjEBNKTh5wi7N0VUPsA&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1399"
         },
         {
             title: "Graphic Design Course",
             description: "Learn the fundamentals of visual communication, typography, and branding using tools like Adobe Photoshop and Illustrator to create stunning digital designs.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFSxQxzOxDu-OvGxtjEBNKTh5wi7N0VUPsA&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1599"
         },
         {
             title: "Digital Marketing Course",
             description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSFSxQxzOxDu-OvGxtjEBNKTh5wi7N0VUPsA&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
+            price: "799"
+        },
+        {
+            title: "Digital Marketing Course",
+            description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "799"
         }
     ];
@@ -1573,59 +1436,48 @@ function StudyMaterial() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] mt-5",
-                children: [
-                    "Offline ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-gray-900",
-                        children: " Best Selling "
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 272,
-                        columnNumber: 17
-                    }, this),
-                    " Courses"
-                ]
-            }, void 0, true, {
+                className: "text-gray-900 lg:text-start text-center font-normal text-[25px] pt-3 mb-0",
+                children: "Best Selling Study Material"
+            }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 271,
+                lineNumber: 303,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "sm:hidden",
+                className: "my-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     ...sliderSettings,
-                    children: studyMaterialCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-2",
+                    children: CoursesData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-3",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
+                                className: "rounded-[10px] shadow-sm group overflow-hidden hover:shadow-md transition duration-300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-full h-[250px] object-cover rounded-t-[10px]",
+                                        className: "w-full h-[200px] object-cover rounded-t-[10px] group-hover:scale-[1.01] transition duration-300",
                                         src: item.image,
-                                        alt: ""
+                                        alt: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 279,
+                                        lineNumber: 314,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "p-6",
+                                        className: "p-4 h-[320px]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-[23px] font-semibold mb-2",
+                                                className: "text-[20px] font-semibold mb-2",
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 285,
+                                                lineNumber: 320,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-700",
+                                                className: "text-gray-700 text-[14px] text-justify tracking-tighter",
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 286,
+                                                lineNumber: 321,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1633,7 +1485,7 @@ function StudyMaterial() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 288,
+                                                        lineNumber: 325,
                                                         columnNumber: 21
                                                     }, this),
                                                     " ",
@@ -1642,157 +1494,65 @@ function StudyMaterial() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 287,
+                                                lineNumber: 324,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-4 grid grid-cols-2 gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
+                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[7px] text-[14px] rounded-lg hover:text-white font-medium",
                                                         children: "Add to Cart"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 291,
+                                                        lineNumber: 328,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[7px] text-[14px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 294,
+                                                        lineNumber: 331,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 290,
+                                                lineNumber: 327,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 284,
+                                        lineNumber: 319,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 278,
+                                lineNumber: 313,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                            lineNumber: 277,
+                            lineNumber: 312,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                    lineNumber: 275,
+                    lineNumber: 310,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 274,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden sm:grid grid-cols-3 gap-12 my-[40px]",
-                children: studyMaterialCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                className: "w-full h-[200px] object-cover duration-300  group-hover:scale-[1.1] rounded-t-[10px]",
-                                src: item.image,
-                                alt: ""
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 309,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-[23px] font-semibold mb-2",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 315,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-700",
-                                        children: item.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 316,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[28px] mt-2 font-semibold flex items-center gap-1 text-gray-950",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 318,
-                                                columnNumber: 17
-                                            }, this),
-                                            " ",
-                                            item.price,
-                                            "/-"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 317,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 grid grid-cols-2 gap-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
-                                                children: "Add to Cart"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 321,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
-                                                children: "Buy Now"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 324,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 320,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 314,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 308,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 306,
+                lineNumber: 308,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-        lineNumber: 270,
+        lineNumber: 302,
         columnNumber: 5
     }, this);
 }
@@ -1802,29 +1562,52 @@ function TestSeries() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
-    let TestSeriesCourses = [
+    let CoursesData = [
         {
             title: "Interior Design Course",
             description: "Master the art of interior design by learning how to create cohesive room themes, apply color theory, and develop skills to elevate your design perspective.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1399"
         },
         {
             title: "Graphic Design Course",
             description: "Learn the fundamentals of visual communication, typography, and branding using tools like Adobe Photoshop and Illustrator to create stunning digital designs.",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "1599"
         },
         {
             title: "Digital Marketing Course",
             description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIERBgyZcnJkjXVLNO5bdx16jtWNUepf70Q&s",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
+            price: "799"
+        },
+        {
+            title: "Digital Marketing Course",
+            description: "Gain expertise in SEO, social media strategy, content marketing, and analytics to effectively promote brands and drive online engagement more extra features .",
+            image: "https://blog.ipleaders.in/wp-content/uploads/2021/05/online-course-blog-header.jpg",
             price: "799"
         }
     ];
@@ -1832,59 +1615,48 @@ function TestSeries() {
         className: "my-[0px] lg:px-6",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-gray-900 lg:text-start text-center font-bold text-[25px] lg:mb-10 my-5",
-                children: [
-                    "Test Series ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "text-gray-900",
-                        children: " Best Selling "
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 377,
-                        columnNumber: 21
-                    }, this),
-                    " Courses"
-                ]
-            }, void 0, true, {
+                className: "text-gray-900 lg:text-start text-center font-normal text-[25px] pt-3 mb-0",
+                children: "Best Selling Test Series"
+            }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 376,
+                lineNumber: 410,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "sm:hidden",
+                className: "my-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     ...sliderSettings,
-                    children: TestSeriesCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "px-2",
+                    children: CoursesData.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "px-3",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
+                                className: "rounded-[10px] shadow-sm group overflow-hidden hover:shadow-md transition duration-300",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                        className: "w-full h-[250px] object-cover rounded-t-[10px]",
+                                        className: "w-full h-[200px] object-cover rounded-t-[10px] group-hover:scale-[1.01] transition duration-300",
                                         src: item.image,
-                                        alt: ""
+                                        alt: item.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 384,
+                                        lineNumber: 421,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "p-6",
+                                        className: "p-4 h-[320px]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                className: "text-[23px] font-semibold mb-2",
+                                                className: "text-[20px] font-semibold mb-2",
                                                 children: item.title
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 390,
+                                                lineNumber: 427,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                className: "text-gray-700",
+                                                className: "text-gray-700 text-[14px] text-justify tracking-tighter",
                                                 children: item.description
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 391,
+                                                lineNumber: 428,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1892,7 +1664,7 @@ function TestSeries() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 393,
+                                                        lineNumber: 432,
                                                         columnNumber: 21
                                                     }, this),
                                                     " ",
@@ -1901,157 +1673,65 @@ function TestSeries() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 392,
+                                                lineNumber: 431,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "mt-4 grid grid-cols-2 gap-4",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
+                                                        className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[7px] text-[14px] rounded-lg hover:text-white font-medium",
                                                         children: "Add to Cart"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 396,
+                                                        lineNumber: 435,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
+                                                        className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[7px] text-[14px] rounded-lg text-white font-medium",
                                                         children: "Buy Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                        lineNumber: 399,
+                                                        lineNumber: 438,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 395,
+                                                lineNumber: 434,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 389,
+                                        lineNumber: 426,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 383,
+                                lineNumber: 420,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                            lineNumber: 382,
+                            lineNumber: 419,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                    lineNumber: 380,
+                    lineNumber: 417,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 379,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden sm:grid grid-cols-3 gap-12 my-[40px]",
-                children: TestSeriesCourses.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "rounded-[10px] shadow-lg group overflow-hidden hover:shadow-xl",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                className: "w-full h-[200px] object-cover duration-300  group-hover:scale-[1.1] rounded-t-[10px]",
-                                src: item.image,
-                                alt: ""
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 414,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "p-6",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-[23px] font-semibold mb-2",
-                                        children: item.title
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 420,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-800 text-justify tracking-tighter",
-                                        children: item.description
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 421,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[28px] mt-2 font-semibold flex items-center gap-1 text-gray-950",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa6$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaIndianRupeeSign"], {}, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 423,
-                                                columnNumber: 17
-                                            }, this),
-                                            " ",
-                                            item.price,
-                                            "/-"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 422,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 grid grid-cols-2 gap-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-300 hover:bg-gray-600 cursor-pointer transition duration-300 py-[10px] rounded-lg hover:text-white font-medium",
-                                                children: "Add to Cart"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 426,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                className: "bg-gray-900 hover:bg-gray-800 transition duration-300 cursor-pointer py-[10px] rounded-lg text-white font-medium",
-                                                children: "Buy Now"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                                lineNumber: 429,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                        lineNumber: 425,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                                lineNumber: 419,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, index, true, {
-                        fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                        lineNumber: 413,
-                        columnNumber: 11
-                    }, this))
-            }, void 0, false, {
-                fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-                lineNumber: 411,
+                lineNumber: 415,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/TopCourses.jsx",
-        lineNumber: 375,
+        lineNumber: 409,
         columnNumber: 5
     }, this);
 }

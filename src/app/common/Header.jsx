@@ -76,7 +76,7 @@ export default function Header() {
                                     <li className="text-[18px] capitalize my-4 ml-2 text-gray-700 flex items-center  gap-1"><VscTriangleRight /> {subSubCat.name}</li>
                                     {courses.map((course, indexs) => {
                                       return (
-                                        <Link href={`/course/${course.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`}><li key={indexs} className="ml-8 my-[10px] text-gray-600 hover:text-gray-900 duration-300">{course}</li></Link>
+                                        <Link key={indexs} href={`/course/${course.toLowerCase().replace(/[^a-zA-Z0-9]/g, "-")}`}><li className="ml-8 my-[10px] text-gray-600 hover:text-gray-900 duration-300">{course}</li></Link>
                                       )
                                     })}
                                   </ul>
@@ -108,8 +108,8 @@ export default function Header() {
 
       {/* header for mobile */}
       <div className="lg:hidden block">
-        <div className="flex items-center justify-between gap-0 py-[20px] px-2 shadow-xl">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center justify-between gap-0 py-[00px] px-2 shadow-xl">
+          <div className="flex items-center gap-0">
             <button
               onClick={() => setMobileMenu(!mobileMenu)}
               className="text-[30px]"
@@ -117,7 +117,7 @@ export default function Header() {
               <HiOutlineBars3CenterLeft />
             </button>
             <img
-              className="w-[100px] object-cover h-[50px]"
+              className="w-[90px] h-[90px] object-cover"
               src="/responsiveLogo.jpg"
               alt=""
             />

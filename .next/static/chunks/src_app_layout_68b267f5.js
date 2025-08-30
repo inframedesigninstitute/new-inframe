@@ -9,6 +9,7 @@
   "static/chunks/node_modules_react-icons_md_index_mjs_78df2b41._.js",
   "static/chunks/node_modules_react-icons_io_index_mjs_d35cf443._.js",
   "static/chunks/node_modules_react-icons_ri_index_mjs_0e2ec0a5._.js",
+  "static/chunks/node_modules_react-icons_fa6_index_mjs_00e856c4._.js",
   "static/chunks/node_modules_react-icons_lib_74ccc930._.js",
   "static/chunks/node_modules_sweetalert2_dist_sweetalert2_all_b240e9f2.js",
   "static/chunks/node_modules_next_dist_b93b88b6._.js"

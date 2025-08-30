@@ -11,8 +11,16 @@ export default function MegaMenu({ MegaMenuOpen, setMegaMenuOpen }) {
         offlineCourse: "Offline courses",
         studyMaterial: "Study Material",
         testSeries: "Test Series",
-        freeRes: "Free Resources",
+        freeResources: "Free Resources",
     };
+
+    let allTabs = [
+        { name: 'Online Course', slug: 'onlineCourse' },
+        { name: 'Offline Course', slug: 'offlineCourse' },
+        { name: 'Study Material', slug: 'studyMaterial' },
+        { name: 'Test Series', slug: 'testSeries' },
+        { name: 'Free Resources', slug: 'freeResources' },
+    ]
 
     return (
         <div
@@ -25,11 +33,11 @@ export default function MegaMenu({ MegaMenuOpen, setMegaMenuOpen }) {
             <div className="grid grid-cols-[30%_auto] gap-5">
                 <div className="border-0">
                     <ul>
-                        <li onClick={() => setActiveTab("onlineCourse")} className={`menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent`}>Online Course</li>
-                        <li onClick={() => setActiveTab("offlineCourse")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Offline Course</li>
-                        <li onClick={() => setActiveTab("studyMaterial")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Study Material</li>
-                        <li onClick={() => setActiveTab("testSeries")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Test Series</li>
-                        <li onClick={() => setActiveTab("freeRes")} className="menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 hover:bg-white hover:border-gray-200 hover:shadow-md border-[1px] border-transparent">Free Resources</li>
+                        {allTabs.map((item, index) => {
+                            return (
+                                <li key={index} onClick={() => setActiveTab(item.slug)} className={`${activeTab === item.slug ? 'bg-white shadow-lg' : 'bg-transparent shadow-none'} menu-tab w-full duration-300 rounded-[10px] text-[17px] text-start px-3 py-4 `}>{item.name}</li>
+                            )
+                        })}
                     </ul>
                 </div>
                 <div className="h-[65vh] scrollbar overflow-y-scroll">
