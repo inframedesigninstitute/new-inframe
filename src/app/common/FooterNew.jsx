@@ -36,7 +36,7 @@ export default function FooterNew() {
 
                 <div className="w-full lg:py-[30px] py-[20px] bg-black lg:px-6 px-3 " >
                     <div className="max-w-[1320] mx-auto">
-                        <div className="grid md:grid-cols-[20%_22%_22%_auto]  justify-between items-start gap-0">
+                        <div className="grid md:grid-cols-[20%_22%_22%_auto]  justify-between items-start lg:gap-0 gap-5">
                             <div className="text-white  pr-5 h-[100%] border-white">
                                 <h2 className="text-[24px] mb-4 font-semibold capitalize ">Quick Links</h2>
                                 <ul>
@@ -71,7 +71,7 @@ export default function FooterNew() {
                                     <p className=" text-[16px]"> <span className="hover:underline duration-100 cursor-pointer">info@inframedesigninstitute.com</span></p>
                                 </div>
 
-                                <img className="w-[140px] ml-6 rounded mt-3 h-[140px]" src="/QrCode.avif" />
+                                <img className="lg:w-[140px] w-[100px] lg:ml-6 ml-3 rounded mt-3 lg:h-[140px] h-[100px]" src="/QrCode.avif" />
                                 <div className="flex items-center gap-4 mt-4">
                                     <Link href={'/about-us'}><p className="cursor-pointer border-r-2 border-white pr-3 hover:text-gray-300 duration-200">About Us</p></Link>
                                     <Link href={'/contact-us'}><p className="cursor-pointer  border-r-2 border-white pr-3 hover:text-gray-300 duration-200">Contact Us</p></Link>
@@ -111,8 +111,8 @@ export default function FooterNew() {
                     </div>
                 </div>
                 <div className="w-full flex flex-col items-center font-semibold text-[14px]  bg-black text-white">
-                    <p className="text-center py-[3px] ">© 2025 Inframe Design Institute is a Unit of Inframe Educational Society Registered under the Rajasthan Society Act. All rights reserved</p>
-                    <div className="pb-[20px] flex gap-3">
+                    <p className="lg:text-center text-justify py-[3px] lg:p-0 p-3">© 2025 Inframe Design Institute is a Unit of Inframe Educational Society Registered under the Rajasthan Society Act. All rights reserved</p>
+                    <div className="pb-[20px] flex flex-wrap gap-3 p-5">
                         <span className="cursor-pointer hover:text-gray-300 duration-200"> · Privacy Policy</span>
                         <span className="cursor-pointer hover:text-gray-300 duration-200"> ·  Cancellation and Refund</span>
                         <span className="cursor-pointer hover:text-gray-300 duration-200"> ·   Terms & Conditions</span>

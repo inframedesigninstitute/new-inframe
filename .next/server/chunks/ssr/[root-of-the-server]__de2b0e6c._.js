@@ -1380,7 +1380,7 @@ function FooterNew() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "max-w-[1320] mx-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "grid md:grid-cols-[20%_22%_22%_auto]  justify-between items-start gap-0",
+                            className: "grid md:grid-cols-[20%_22%_22%_auto]  justify-between items-start lg:gap-0 gap-5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "text-white  pr-5 h-[100%] border-white",
@@ -1612,7 +1612,7 @@ function FooterNew() {
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                            className: "w-[140px] ml-6 rounded mt-3 h-[140px]",
+                                            className: "lg:w-[140px] w-[100px] lg:ml-6 ml-3 rounded mt-3 lg:h-[140px] h-[100px]",
                                             src: "/QrCode.avif"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/common/FooterNew.jsx",
@@ -1827,7 +1827,7 @@ function FooterNew() {
                     className: "w-full flex flex-col items-center font-semibold text-[14px]  bg-black text-white",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-center py-[3px] ",
+                            className: "lg:text-center text-justify py-[3px] lg:p-0 p-3",
                             children: "© 2025 Inframe Design Institute is a Unit of Inframe Educational Society Registered under the Rajasthan Society Act. All rights reserved"
                         }, void 0, false, {
                             fileName: "[project]/src/app/common/FooterNew.jsx",
@@ -1835,7 +1835,7 @@ function FooterNew() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "pb-[20px] flex gap-3",
+                            className: "pb-[20px] flex flex-wrap gap-3 p-5",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "cursor-pointer hover:text-gray-300 duration-200",
